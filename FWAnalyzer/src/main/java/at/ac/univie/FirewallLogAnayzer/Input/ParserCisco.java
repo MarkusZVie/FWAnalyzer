@@ -7,6 +7,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -42,54 +43,31 @@ public class ParserCisco extends Parser{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		String destIp = searchTheNIpInRow(line,1);
+		String fwIPAdress = searchTheNIpInRow(line,1);
 		
 		String prorityCode = prorityCodeAndAsaCode.substring(0, 1);
 		String asaCodeString = prorityCodeAndAsaCode.substring(2);
 		int asaCode = Integer.parseInt(asaCodeString);
+		String trimedLine = " "+ line.substring(line.indexOf("-"+asaCode+": ")+("-"+asaCode+": ").length())+ " ";	
 		ArrayList<String> asaCodeDescription = CiscoAsaCodeSingelton.getInstance().getBackgroundInfoAsaCode(asaCode);
 		ArrayList<String> asaSplitDescLine = ArraysplitLineBySimmilarities (line,asaCodeDescription,asaCode);
 		
 		String tempSrcIP = findeSrcIp(asaSplitDescLine);
+		System.out.println(tempSrcIP);
 		String srcIP =null;
 		if(tempSrcIP != null){
 			srcIP = searchTheNIpInRow(tempSrcIP,1);
 		}
 		
-		System.out.println(asaCodeDescription.get(0));
-		System.out.println(line);
-		for(int i=0; i<asaSplitDescLine.size();i++){
-			System.out.println(asaSplitDescLine.get(i++)+ " ");
-			System.out.println("--->"+asaSplitDescLine.get(i));
+		String destIP =findeDestIp(asaSplitDescLine);
 			
-		}
+		String[] IPAndPort = findeIPAndPort(asaSplitDescLine,trimedLine);
 		
-		String protocol = findProtocol(asaSplitDescLine);
-		if(protocol == null){
-			/*
-			System.out.println("------------");
-			System.out.println(asaCodeDescription.get(0));
-			System.out.println(line);
-			*/
-		}
+	
+		String protocol = findProtocol(asaSplitDescLine, trimedLine);
 		
-		/*
-		// See if there is really no IP
-		if(srcIP==null){
-			System.out.println("----------------------");
-			System.out.println(asaCodeDescription.get(0));
-			System.out.println(line);
-			System.out.println("......................");
-			for(int i=0; i<asaSplitDescLine.size();i++){
-				System.out.println(asaSplitDescLine.get(i++)+ " ");
-				System.out.println("--->"+asaSplitDescLine.get(i));
-				
-			}
-			System.out.println("llllll " + srcIP);
-		}
-		*/
-		
-		
+		String srcPort = findeSrcPort(asaSplitDescLine,tempSrcIP,true);
+		String desPort = findeSrcPort(asaSplitDescLine,tempSrcIP,false);
 	}
 
 	
@@ -98,7 +76,78 @@ public class ParserCisco extends Parser{
 	
 
 
-	private String findProtocol(ArrayList<String> asaSplitDescLine) {
+	private String[] findeIPAndPort(ArrayList<String> asaSplitDescLine, String trimedLine) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private String findeDestIp(ArrayList<String> asaSplitDescLine) {
+		for(int i=0; i<asaSplitDescLine.size();i=i+2){
+			String description = asaSplitDescLine.get(i);
+			String artifact = asaSplitDescLine.get(i+1);
+			if(description.contains("dest_address")||description.contains("source_address")){
+				System.out.println("----------");
+				System.out.println(description);
+				System.out.println(artifact);
+			}
+		}
+		return null;
+	}
+
+	private String findeSrcPort(ArrayList<String> asaSplitDescLine, String tempSrcIP, boolean isSearchSorce) {
+		for(int i=0; i<asaSplitDescLine.size();i=i+2){
+			String description = asaSplitDescLine.get(i);
+			String artifact = asaSplitDescLine.get(i+1);
+			String keyword ="";
+			if(isSearchSorce){
+				keyword = "source_port";
+			}else{
+				keyword = "dest_port";
+			}
+			
+			if(description.contains(keyword)){
+				System.out.println("-------------");
+				System.out.println(description);
+				//System.out.println(description);
+				//System.out.println(artifact);
+				String ip = searchTheNIpInRow(artifact, 1);
+				if(ip!=null){
+					int endOfIP = artifact.indexOf(ip)+ip.length();
+					if(endOfIP != artifact.length()){
+						if(artifact.charAt(endOfIP)=='/'){
+							int endPort = artifact.indexOf(' ', endOfIP);
+							if(endPort<0){
+								return artifact.substring(endOfIP+1, artifact.length());
+							}else{
+								return artifact.substring(endOfIP+1, endPort);
+							}
+						}
+					}
+				}		
+			}
+		}
+		return null;
+	}
+
+	private String printSplitDescLine(ArrayList<String> asaCodeDescription, String line,ArrayList<String> asaSplitDescLine) {
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append(asaCodeDescription.get(0));
+		sb.append(System.lineSeparator());
+		sb.append(line);
+		sb.append(System.lineSeparator());
+		for(int i=0; i<asaSplitDescLine.size();i++){
+			sb.append(asaSplitDescLine.get(i++)+ " ");
+			sb.append(System.lineSeparator());
+			sb.append("--->"+asaSplitDescLine.get(i));
+			sb.append(System.lineSeparator());
+			
+		}
+		return sb.toString();
+		
+	}
+
+	private String findProtocol(ArrayList<String> asaSplitDescLine,String trimedLine) {
 		for(int i=0; i<asaSplitDescLine.size();i=i+2){
 			String description = asaSplitDescLine.get(i);
 			if(description.contains("protocol")||
@@ -106,6 +155,23 @@ public class ParserCisco extends Parser{
 				return asaSplitDescLine.get(i+1).trim();
 				
 			}
+			if(description.contains("icmp_msg_info")){
+				return "icmp";
+			}
+			if(trimedLine.contains("DHCP configured")){
+				return "dhcp";
+			}
+			if(trimedLine.contains("ICMP")){
+				return "icmp";
+			}
+			if(trimedLine.contains("IPsec")||trimedLine.contains("IPSec")||trimedLine.contains("ipsec")){
+				return "ipsec";
+			}
+			if(trimedLine.contains("UDP")||trimedLine.contains("udp")){
+				return "udp";
+			}
+			
+			
 		}
 		return null;
 	}
