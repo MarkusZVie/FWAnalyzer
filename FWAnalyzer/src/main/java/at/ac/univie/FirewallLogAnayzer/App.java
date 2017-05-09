@@ -2,11 +2,12 @@ package at.ac.univie.FirewallLogAnayzer;
 
 import java.io.FileNotFoundException;
 
-import at.ac.univie.FirewallLogAnayzer.Data.LogType;
 import at.ac.univie.FirewallLogAnayzer.Data.LogTypeSingelton;
 import at.ac.univie.FirewallLogAnayzer.Exceptions.LogIdNotFoundException;
 import at.ac.univie.FirewallLogAnayzer.Input.IInputHandler;
 import at.ac.univie.FirewallLogAnayzer.Input.InputHandler;
+import at.ac.univie.FirewallLogAnayzer.Processing.TemporairProcessing;
+
 
 /**
  * Hello world!
@@ -28,5 +29,11 @@ public class App
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
+       
+       //test method
+       TemporairProcessing.doSomething();
+       
+       
+       
     }
 }

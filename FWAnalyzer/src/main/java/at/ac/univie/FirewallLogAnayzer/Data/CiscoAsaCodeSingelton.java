@@ -9,12 +9,8 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 import at.ac.univie.FirewallLogAnayzer.Exceptions.StringNotFoundException;
-import at.ac.univie.FirewallLogAnayzer.Input.IInputHandler;
-import at.ac.univie.FirewallLogAnayzer.Input.InputHandler;
-import at.ac.univie.FirewallLogAnayzer.Input.Parser;
-import at.ac.univie.FirewallLogAnayzer.Input.ParserCisco;
 import at.ac.univie.FirewallLogAnayzer.Processing.StaticFunctions;
-import junit.framework.Assert;
+
 
 public class CiscoAsaCodeSingelton {
 	private String ciscoAsaContextPage;

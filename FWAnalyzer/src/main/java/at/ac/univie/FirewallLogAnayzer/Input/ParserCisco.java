@@ -7,15 +7,15 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import at.ac.univie.FirewallLogAnayzer.Data.CiscoAsaCodeSingelton;
+import at.ac.univie.FirewallLogAnayzer.Data.IpLocation;
 import at.ac.univie.FirewallLogAnayzer.Data.LogRow;
 import at.ac.univie.FirewallLogAnayzer.Data.LogRows;
+import at.ac.univie.FirewallLogAnayzer.Data.SavedLocationFromIP;
 import at.ac.univie.FirewallLogAnayzer.Exceptions.StringNotFoundException;
 import at.ac.univie.FirewallLogAnayzer.Processing.StaticFunctions;
+
 
 public class ParserCisco extends Parser{
 
@@ -66,17 +66,14 @@ public class ParserCisco extends Parser{
 		if(protocol == null || protocol.equals("")){
 			protocol = IPAndPort[5];
 		}
-		String location = "";
 		
-		LogRow logRow = new LogRow(srcIP, srcPort, destIP, destPort, protocol, trimedLine, asaCodeDescription.get(0), asaCodeDescription.get(1), asaCodeDescription.get(2), fwIPAdress, asaCode, asaSplitDescLine,prorityCode, dateTime, type, location,rowType);
+		IpLocation ipLocation = SavedLocationFromIP.getInstance().checkIpLocation(srcIP);
+		
+		LogRow logRow = new LogRow(srcIP, srcPort, destIP, destPort, protocol, trimedLine, asaCodeDescription.get(0), asaCodeDescription.get(1), asaCodeDescription.get(2), fwIPAdress, asaCode, asaSplitDescLine,prorityCode, dateTime, type, rowType,ipLocation);
 		return logRow;
 	}
 
 	
-	
-
-	
-
 
 	private String[] findeIPAndPort(ArrayList<String> asaSplitDescLine, String trimedLine, String backgroundInfo, int asaCode) {
 		//String Array= incoming/Outgoing/intern, sourceIP, sourcePort, destIP, destPort, found Protocol

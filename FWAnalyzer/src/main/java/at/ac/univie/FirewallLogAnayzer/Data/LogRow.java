@@ -3,6 +3,8 @@ package at.ac.univie.FirewallLogAnayzer.Data;
 import java.util.ArrayList;
 import java.util.Date;
 
+import at.ac.univie.FirewallLogAnayzer.Processing.StaticFunctions;
+
 public class LogRow {
 	private String srcIP;
 	private String srcPort;
@@ -19,8 +21,8 @@ public class LogRow {
 	private int priority;
 	private Date dateTime; 
 	private String internalExternal;
-	private String location;
 	private String warningNotice;
+	private IpLocation location;
 
 	
 
@@ -28,7 +30,7 @@ public class LogRow {
 	public LogRow(String srcIP, String srcPort, String destIP, String destPort, String protocol, String logLine,
 			String descriptionLogLine, String explanation, String recommendedAction, String fwIP, int logLineCode,
 			ArrayList<String> additonalInformation, int priority, Date dateTime, String internalExternal,
-			String location,String warningNotice) {
+			String warningNotice, IpLocation ipLocation) {
 		super();
 		this.srcIP = srcIP;
 		this.srcPort = srcPort;
@@ -45,9 +47,70 @@ public class LogRow {
 		this.priority = priority;
 		this.dateTime = dateTime;
 		this.internalExternal = internalExternal;
-		this.location = location;
 		this.warningNotice = warningNotice;
+		this.location = ipLocation;
 	}
+	
+	public String getToStringHeadline(){
+		return "srcIP \t srcPort \t destIP \t destPort \t protocol \t DateTime \t priority \t Type \t CityName \t CountryName";
+	}
+	
+	@Override
+	public String toString() {
+		String nullWord = "[null]";
+		String srcIP = this.srcIP;
+		if(srcIP==null){
+			srcIP=nullWord;
+		}
+		String srcPort = this.srcPort;
+		if(srcPort==null){
+			srcPort=nullWord;
+		}
+		String destIP = this.destIP;
+		if(destIP==null){
+			destIP=nullWord;
+		}
+		String destPort = this.destPort;
+		if(destPort==null){
+			destPort=nullWord;
+		}
+		String protocol = this.protocol;
+		if(protocol==null){
+			protocol=nullWord;
+		}
+		String dateTime = StaticFunctions.getSimpleDateFormat().format(this.dateTime);
+		if(dateTime==null){
+			dateTime=nullWord;
+		}
+		String priority = this.priority+"";
+		if(priority==null){
+			priority=nullWord;
+		}
+		String warningNotice = this.warningNotice;
+		if(warningNotice==null){
+			warningNotice=nullWord;
+		}
+		String cityName;
+		String countryName;
+		if(location==null){
+			cityName = nullWord;
+			countryName = nullWord;
+		}else{
+			cityName = location.getCityName();
+			if(cityName==null){
+				cityName=nullWord;
+			}
+			countryName = location.getCountryName();
+			if(countryName==null){
+				countryName=nullWord;
+			}
+		}
+		
+		
+		return srcIP + "\t" + srcPort + "\t" + destIP + "\t" + destPort + "\t" + protocol + "\t" + dateTime + "\t" + priority + "\t" + warningNotice + "\t" + cityName + "\t" + countryName;
+	}
+	
+	
 	
 	public String getWarningNotice() {
 		return warningNotice;
@@ -65,10 +128,9 @@ public class LogRow {
 		return internalExternal;
 	}
 
-	public String getLocation() {
+	public IpLocation getLocation() {
 		return location;
 	}
-
 
 	public int getLogLineCode() {
 		return logLineCode;

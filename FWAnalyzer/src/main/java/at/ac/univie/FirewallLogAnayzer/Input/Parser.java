@@ -1,12 +1,17 @@
 package at.ac.univie.FirewallLogAnayzer.Input;
 
+import java.io.File;
+import java.net.InetAddress;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
 public abstract class Parser {
+	
+	 
 
 	protected Date searchDateTime(String line, String datePattern, SimpleDateFormat sdf) throws ParseException {
 		Pattern p = Pattern.compile(datePattern);
