@@ -12,6 +12,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import at.ac.univie.FirewallLogAnayzer.Data.CiscoAsaCodeSingelton;
+import at.ac.univie.FirewallLogAnayzer.Data.LogRow;
+import at.ac.univie.FirewallLogAnayzer.Data.LogRows;
 import at.ac.univie.FirewallLogAnayzer.Exceptions.StringNotFoundException;
 import at.ac.univie.FirewallLogAnayzer.Processing.StaticFunctions;
 
@@ -23,7 +25,7 @@ public class ParserCisco extends Parser{
 		try {
 			String line = reader.readLine();
 		    while (line != null) {
-		    	analyseRow(line);
+		    	LogRows.getInstance().addLogRow(analyseRow(line));
 		        line = reader.readLine();
 		    }
 		} catch (IOException e) {
@@ -32,7 +34,7 @@ public class ParserCisco extends Parser{
 		
 	}
 
-	private void analyseRow(String line){
+	private LogRow analyseRow(String line){
 		Date dateTime = searchForDateTime(line);
 		String rowType ="";
 		String prorityCodeAndAsaCode="";
@@ -45,7 +47,7 @@ public class ParserCisco extends Parser{
 		}
 		String fwIPAdress = searchTheNIpInRow(line,1);
 		
-		String prorityCode = prorityCodeAndAsaCode.substring(0, 1);
+		int prorityCode = Integer.parseInt(prorityCodeAndAsaCode.substring(0, 1));
 		String asaCodeString = prorityCodeAndAsaCode.substring(2);
 		int asaCode = Integer.parseInt(asaCodeString);
 		String trimedLine = " "+ line.substring(line.indexOf("-"+asaCode+": ")+("-"+asaCode+": ").length())+ " ";	
@@ -64,8 +66,10 @@ public class ParserCisco extends Parser{
 		if(protocol == null || protocol.equals("")){
 			protocol = IPAndPort[5];
 		}
-	
+		String location = "";
 		
+		LogRow logRow = new LogRow(srcIP, srcPort, destIP, destPort, protocol, trimedLine, asaCodeDescription.get(0), asaCodeDescription.get(1), asaCodeDescription.get(2), fwIPAdress, asaCode, asaSplitDescLine,prorityCode, dateTime, type, location,rowType);
+		return logRow;
 	}
 
 	
