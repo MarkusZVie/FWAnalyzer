@@ -52,22 +52,20 @@ public class ParserCisco extends Parser{
 		ArrayList<String> asaCodeDescription = CiscoAsaCodeSingelton.getInstance().getBackgroundInfoAsaCode(asaCode);
 		ArrayList<String> asaSplitDescLine = ArraysplitLineBySimmilarities (line,asaCodeDescription,asaCode);
 		
-		String tempSrcIP = findeSrcIp(asaSplitDescLine);
-		System.out.println(tempSrcIP);
-		String srcIP =null;
-		if(tempSrcIP != null){
-			srcIP = searchTheNIpInRow(tempSrcIP,1);
-		}
-		
-		String destIP =findeDestIp(asaSplitDescLine);
-			
-		String[] IPAndPort = findeIPAndPort(asaSplitDescLine,trimedLine);
-		
 	
-		String protocol = findProtocol(asaSplitDescLine, trimedLine);
+		String protocol = findProtocol(asaSplitDescLine, trimedLine);	
+		String[] IPAndPort = findeIPAndPort(asaSplitDescLine,trimedLine,asaCodeDescription.get(0),asaCode);
+		String type = IPAndPort[0];
+		String srcIP = IPAndPort[1];
+		String srcPort = IPAndPort[2];
+		String destIP = IPAndPort[3];
+		String destPort = IPAndPort[4];
 		
-		String srcPort = findeSrcPort(asaSplitDescLine,tempSrcIP,true);
-		String desPort = findeSrcPort(asaSplitDescLine,tempSrcIP,false);
+		if(protocol == null || protocol.equals("")){
+			protocol = IPAndPort[5];
+		}
+	
+		
 	}
 
 	
@@ -76,8 +74,99 @@ public class ParserCisco extends Parser{
 	
 
 
-	private String[] findeIPAndPort(ArrayList<String> asaSplitDescLine, String trimedLine) {
-		// TODO Auto-generated method stub
+	private String[] findeIPAndPort(ArrayList<String> asaSplitDescLine, String trimedLine, String backgroundInfo, int asaCode) {
+		//String Array= incoming/Outgoing/intern, sourceIP, sourcePort, destIP, destPort, found Protocol
+		String[] ipAndPort = new String[6];
+		
+		
+		for(int i=0; i<asaSplitDescLine.size();i=i+2){
+			String description = asaSplitDescLine.get(i);
+			String artifact = asaSplitDescLine.get(i+1);
+			
+			
+			//searchFor sourceIP
+			if(description.trim().contains("source_IP")|| description.trim().contains("source_address")||description.trim().contains("IP_address")){
+				ipAndPort[0]="incoming"; 					//If the source IP is outside than is incoming
+				ipAndPort[1]=searchTheNIpInRow(artifact, 1);
+				ipAndPort[2]=checkIfPortIsAPart(artifact);
+					
+					
+				
+			}
+			if(description.trim().contains("dest_IP")|| description.trim().contains("dest_address")){
+				String inOrOutside = null;
+				if(artifact.contains("outside:")){
+					inOrOutside = "outside:";
+				}
+				if(artifact.contains("inside:")){
+					inOrOutside = "inside:";
+				}
+				if(inOrOutside!=null){
+					if(artifact.contains(inOrOutside)){
+						int end= artifact.indexOf(' ', artifact.indexOf(inOrOutside)+inOrOutside.length());
+						if(end >0){
+							ipAndPort[3]=artifact.substring(artifact.indexOf(inOrOutside)+inOrOutside.length(), end);
+						}else{
+							ipAndPort[3]=artifact.substring(artifact.indexOf(inOrOutside)+inOrOutside.length());
+						}
+						if(ipAndPort[3].contains("/")){
+							ipAndPort[4]=ipAndPort[3].substring(ipAndPort[3].indexOf('/')+1);
+							ipAndPort[3]=ipAndPort[3].substring(0, ipAndPort[3].indexOf('/'));
+						}
+					}
+				}else{
+					if(asaCode==313005){
+						ipAndPort[0] = "incoming";
+						String srcArtifact = artifact.substring(artifact.indexOf("src ")+"src ".length(), artifact.indexOf(' ', artifact.indexOf("src ")+"src ".length()));
+						ipAndPort[1] = searchTheNIpInRow(srcArtifact,1);
+						ipAndPort[2] = checkIfPortIsAPart(srcArtifact);
+						String destArtifact = artifact.substring(artifact.indexOf("dst ")+"dst ".length());
+						ipAndPort[3] = searchTheNIpInRow(destArtifact,1);
+						ipAndPort[4] = checkIfPortIsAPart(destArtifact);
+						ipAndPort[5] = artifact.substring(0, artifact.indexOf(' '));
+						
+						if(ipAndPort[1]==null){
+							ipAndPort[1] = srcArtifact.substring(0, srcArtifact.indexOf('/'));
+							ipAndPort[2] = srcArtifact.substring(srcArtifact.indexOf('/')+1);
+							
+						}
+					}
+				}
+			}
+		}
+		if(ipAndPort[1]==null){
+			if(trimedLine.contains("IP = ")){
+				int beginIndex = trimedLine.indexOf("IP = ")+"IP = ".length();
+				int endIndex = trimedLine.indexOf(' ', beginIndex);
+				if(endIndex <0){
+					ipAndPort[1] = searchTheNIpInRow(trimedLine.substring(beginIndex), 1);
+				}else{
+					ipAndPort[1] = searchTheNIpInRow(trimedLine.substring(beginIndex,endIndex), 1);
+				}
+			}else {
+				ipAndPort[0] = "intern";
+				
+			}
+			
+		}
+		return ipAndPort;
+	}
+
+	private String checkIfPortIsAPart(String artifact) {
+		String ip = searchTheNIpInRow(artifact, 1);
+		if(ip!=null){
+			int endOfIP = artifact.indexOf(ip)+ip.length();
+			if(endOfIP != artifact.length()){
+				if(artifact.charAt(endOfIP)=='/'){
+					int endPort = artifact.indexOf(' ', endOfIP);
+					if(endPort<0){
+						return artifact.substring(endOfIP+1, artifact.length());
+					}else{
+						return artifact.substring(endOfIP+1, endPort);
+					}
+				}
+			}
+		}	
 		return null;
 	}
 
@@ -86,9 +175,6 @@ public class ParserCisco extends Parser{
 			String description = asaSplitDescLine.get(i);
 			String artifact = asaSplitDescLine.get(i+1);
 			if(description.contains("dest_address")||description.contains("source_address")){
-				System.out.println("----------");
-				System.out.println(description);
-				System.out.println(artifact);
 			}
 		}
 		return null;
@@ -106,8 +192,6 @@ public class ParserCisco extends Parser{
 			}
 			
 			if(description.contains(keyword)){
-				System.out.println("-------------");
-				System.out.println(description);
 				//System.out.println(description);
 				//System.out.println(artifact);
 				String ip = searchTheNIpInRow(artifact, 1);
