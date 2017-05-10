@@ -4,12 +4,13 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.ac.univie.FirewallLogAnayzer.gui.InputTabController">
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.ac.univie.FirewallLogAnayzer.GUI.InputTabController">
    <children>
       <Button fx:id="btn1" layoutX="365.0" layoutY="187.0" mnemonicParsing="false" onAction="#startchoose" prefHeight="27.0" prefWidth="201.0" text="Choose File" />
       <Label fx:id="validlabell" layoutX="209.0" layoutY="239.0" prefHeight="17.0" prefWidth="183.0" text="Select File (*.txt)" />
       <TextField fx:id="pathfield" layoutX="35.0" layoutY="187.0" prefHeight="27.0" prefWidth="313.0" />
       <Button fx:id="parsebtn" layoutX="243.0" layoutY="282.0" mnemonicParsing="false" onAction="#startparse" prefHeight="27.0" prefWidth="114.0" text="Parse" textFill="#466cb9" />
-      <Button fx:id="changebtn" layoutX="35.0" layoutY="88.0" mnemonicParsing="false" onAction="#presschangebtn" text="just change" />
+      <Button fx:id="changebtn" layoutX="364.0" layoutY="329.0" mnemonicParsing="false" onAction="#presschangebtn" prefHeight="27.0" prefWidth="201.0" text="Analyze Data" />
+      <Label fx:id="parsestatus" layoutX="35.0" layoutY="334.0" prefHeight="17.0" prefWidth="183.0" />
    </children>
 </AnchorPane>

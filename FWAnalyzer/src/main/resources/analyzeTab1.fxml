@@ -4,9 +4,8 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="253.0" layoutY="91.0" prefHeight="17.0" prefWidth="95.0" text="Analyze Scene" />
+      <Label layoutX="230.0" layoutY="62.0" prefHeight="17.0" prefWidth="141.0" text="Analyze Section" />
    </children>
 </AnchorPane>

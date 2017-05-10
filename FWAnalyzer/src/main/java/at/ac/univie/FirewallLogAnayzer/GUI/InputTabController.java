@@ -1,11 +1,11 @@
 package at.ac.univie.FirewallLogAnayzer.GUI;
 
 
-import java.io.File;
-import java.io.IOException;
-
+import at.ac.univie.FirewallLogAnayzer.Data.LogTypeSingelton;
+import at.ac.univie.FirewallLogAnayzer.Exceptions.LogIdNotFoundException;
 import at.ac.univie.FirewallLogAnayzer.Input.IInputHandler;
 import at.ac.univie.FirewallLogAnayzer.Input.InputHandler;
+import at.ac.univie.FirewallLogAnayzer.Processing.TemporairProcessing;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -14,9 +14,10 @@ import javafx.scene.paint.Color;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
-/**
- * Created by josefweber on 10.04.17.
- */
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public class InputTabController {
 
     // Falscher IMPORT !!
@@ -29,6 +30,8 @@ public class InputTabController {
     @FXML
     private Label validlabell;
 
+    @FXML
+    private Label parsestatus;
 
     @FXML
     private Button changebtn;
@@ -54,8 +57,8 @@ public class InputTabController {
     public void startchoose(){
 
         path = pathfield.getText();
-        IInputHandler x = new InputHandler();
-        
+        IInputHandler ih = new InputHandler();
+
       //  InputInterface di = new Parser(path);
 
         // by typing
@@ -74,35 +77,41 @@ public class InputTabController {
 
         }
 
-        /*
-        if (di.checkFile(pathfield.getText())){
+        File f = new File(pathfield.getText());
+
+        if (f.exists() && !f.isDirectory()){
             path = pathfield.getText();
             parsebtn.setVisible(true);
-            changebtn.setVisible(true);
+
         } else {
             validlabell.setText("File not found");
             validlabell.setTextFill(Color.DARKRED);
             parsebtn.setVisible(false);
             changebtn.setVisible(false);
         }
-*/
+
     }
 
     @FXML
     public void startparse(){
-        //path = pathfield.getText();
-        //InputInterface di = new Parser(path);
 
-    	/*
-        if (di.parsefile()){
-            di.analyzeTest();
-        } else {
-            System.out.println("File could not be parsed.");
-            validlabell.setText("File Error");
-            validlabell.setTextFill(Color.DARKRED);
+        IInputHandler ih = new InputHandler();
+        try {
+            ih.loadeFirewallLog(path, LogTypeSingelton.getInstance().getSupportedLogTypeList().get(0));
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (LogIdNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
         }
-        */
 
+        //Test Parsing
+        TemporairProcessing.doSomething();
+
+        parsestatus.setText("Parsing Success!");
+        // enable next view if parse success
+        changebtn.setVisible(true);
     }
 
     public File chooseFile(){

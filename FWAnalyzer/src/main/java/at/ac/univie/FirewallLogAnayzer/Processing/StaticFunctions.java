@@ -7,7 +7,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 
+import at.ac.univie.FirewallLogAnayzer.Data.PortScanner.PortScan;
 import com.maxmind.geoip2.DatabaseReader;
 import com.maxmind.geoip2.model.CityResponse;
 import com.maxmind.geoip2.record.City;
@@ -73,22 +75,23 @@ public class StaticFunctions {
 		String DATABASE_COUNTRY_PATH = "Files\\GeoLite2-Country.mmdb";
 		    
 		   // City Data.
-		String DATABASE_CITY_PATH = "Files\\GeoLite2-City.mmdb";
-		
+		// 	Files\GeoLite2-City.mmdb
+		String DATABASE_CITY_PATH = "./Files/GeoLite2-City.mmdb";
+
 		IpLocation ipLocation;
 		//http://o7planning.org/en/10455/retrieving-geographic-information-based-on-ip-address-using-geoip2-java-api
 		try {
+
 			// A File object pointing to your GeoLite2 database
 			File dbFile = new File(DATABASE_CITY_PATH);
 			// This creates the DatabaseReader object,
 			// which should be reused across lookups.
-			
+
 			DatabaseReader reader = new DatabaseReader.Builder(dbFile).build();
 			
 			// A IP Address
 			InetAddress ipAddress = InetAddress.getByName(ip);
-			 
-				        
+
 			// Get City info
 			CityResponse response = reader.city(ipAddress);
 			
@@ -116,7 +119,7 @@ public class StaticFunctions {
 				        
 			// Longitude
 			double longitude= location.getLongitude(); // -93.2323
-			
+
 			ipLocation = new IpLocation(countryIsoCode, countryName, subdivisionName, subdivisionIsoCode, cityName, postCode, latitude, longitude);
 			return ipLocation;
 		} catch (Exception e) {
@@ -124,6 +127,13 @@ public class StaticFunctions {
 		}
 		
 		
+	}
+
+	public static ArrayList doPortScan(String host, int portrange){
+		PortScan ps = new PortScan(host, portrange);
+		ArrayList open= ps.getopenPorts();
+		System.out.println(open.toString());
+		return open;
 	}
 	
 }
