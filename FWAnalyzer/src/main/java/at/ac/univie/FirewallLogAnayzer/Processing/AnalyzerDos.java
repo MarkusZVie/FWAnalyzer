@@ -7,78 +7,43 @@ import at.ac.univie.FirewallLogAnayzer.Data.LogRow;
 
 import java.util.*;
 
-/**
- * Created by josefweber on 11.05.17.
- */
 public class AnalyzerDos implements IProcessingAnalyse {
 
     public AnalyzerDos(){}
 
-    public void abc(){
-
-    }
-
     @Override
-    public void analyseDosAny(String protocol) {
-        System.out.println(protocol);
-        ArrayList<LogRow> fpl = StaticDos.filterProtocol(protocol);
-        System.out.println(protocol + " has items: " + fpl.size());
-        HashMap map = StaticDos.countIpDenies(fpl);
-        StaticDos.manageall(map);
-    }
+    public DoSDataList analyseDos(String dosProtocolType) {
+        System.out.println("analyseDos(): Analyse TCP-SYN-DoS: " + dosProtocolType);
 
-    @Override
-    public void analyseDosSyn() {
-        String protocol = "TCP";
-        System.out.println("Analyse TCP-SYN-DoS: " + protocol);
-
-        // get all TCP Denies
-        ArrayList<LogRow> fpl = StaticDos.filterProtocol(protocol);
-        System.out.println(protocol + " has filtered items: " + fpl.size());
+        // get Protocol dedicated LogRows
+        ArrayList<LogRow> fpl = StaticDos.filterProtocol(dosProtocolType);
+        System.out.println("analyseDos(): " + dosProtocolType + " has filtered items: " + fpl.size());
         //StaticDos.printFilterProtocol(fpl);
 
-        // get Map <IP,DenyMessages>
+
+        // Diff zwischen allen Denies aller IPs gemischt/nicht sortiert nach Prodokoll
+        //  -> relevant für DDoS?
+        // StaticDos.calcTimeInterval(fpl);
+
+        // get Map <IP, List<LogRows>>
         HashMap map = StaticDos.countIpDenies(fpl);
         // StaticDos.printHashmap(map);
 
         // calc Zeitabstände für alle DenyMessages jeder IP
-        DoSDataList ddlPing = StaticDos.manageall(map);
-        ddlPing.setName(protocol+"-Data");
+        //  -> Diff zwischen jeweils einer IP
+        DoSDataList ddlist = StaticDos.manageall(map);
+        ddlist.setName(dosProtocolType+"-Data");
 
+        return ddlist;
     }
 
     @Override
-    public void analyseDosLayer7() {
-        String protocol = "http";
-        System.out.println("Analyse Layer7-DoS: " + protocol);
-    }
-
-    @Override
-    public void analyseDosPing() {
-        String protocol = "icmp";
-        System.out.println("Analyse ICMP-Flood-DoS: " + protocol);
-
-        ArrayList<LogRow> fpl = StaticDos.filterProtocol(protocol);
-        System.out.println(protocol + " has filtered items: " + fpl.size());
-
-
-        // Diff zwischen allen Denies aller IPs gemischt!
-        // StaticDos.calcTimeInterval(fpl);
-
-        // Diff zwischen jeweils einer IP
-        HashMap map = StaticDos.countIpDenies(fpl);
-        DoSDataList ddlPing = StaticDos.manageall(map);
-        ddlPing.setName(protocol+"-Data");
-
-        //System.out.println("DDL Size: " + ddlPing.getDataEdited().size());
-        //System.out.println("DDL Example: " + ddlPing.getDataEdited().get(3).getMessages().get(1).getProtocol());
-
-
-        // SORT
-        //ArrayList<DoSData> sortedList = sortMessagePerMinute(ddlPing, "asc");
-        mostDeniedCountry(ddlPing, "abcdefg");
+    public void analyseDDoS() {
 
     }
+
+
+
 
     public ArrayList<DoSData> sortMessagePerMinute(DoSDataList processedData, String ascdesc){
         ArrayList<DoSData> dataraw = processedData.getDataEdited();
@@ -125,16 +90,16 @@ public class AnalyzerDos implements IProcessingAnalyse {
         return dataraw;
     }
 
-    // zählt alle Länder durch
-    public void mostDeniedCountry(DoSDataList processedData, String ascdesc){
+    // Hashmap mit Country und Array mit allen DoSData -> return countrymap zurückgeben
+    // Hashmap mit Country und Counts -> return countryCount
+    public HashMap<String, ArrayList<DoSData>> messagesOfCountry(DoSDataList processedData){
         ArrayList<DoSData> dataraw = processedData.getDataEdited();
         System.out.println("Sort Countries: " + dataraw.size());
 
+        // Hashmap -> Key = Country, Value = Alle IPs mit gleichem Country
         HashMap<String, ArrayList<DoSData>> countrymap = new HashMap<>();
 
-        for (int i = 0; i<dataraw.size(); i++){
-
-        }
+        int failedCountries = 0;
 
         for (DoSData dd: dataraw) {
             int check = dd.getMessages().size();
@@ -146,6 +111,7 @@ public class AnalyzerDos implements IProcessingAnalyse {
                     String check2 = iltemp.getCityName();
                     if (check2 == null) {
                         //System.out.println("    = null: ");
+                        failedCountries++;
                     } else {
                         //System.out.println("    country: " + check2);
                         if (!countrymap.containsKey(dd.getMessages().get(0).getLocation().getCountryName())) {
@@ -163,28 +129,40 @@ public class AnalyzerDos implements IProcessingAnalyse {
             }
         }
 
-        System.out.println("hashmap contains Countrys: " + countrymap.size());
+        System.out.println("hashmap contains Countrys: " + countrymap.size() + " || failed Countries: " + failedCountries);
 
-        /*
+
+        return countrymap;
+
+    }
+
+    // zählen aller Messages pro Country, aus der countrymap
+    // Hashmap NUR aus -> Country + MessageCount-aller IPs mit Country
+    public HashMap<String, Integer> sumMessagesPerCountry(HashMap<String, ArrayList<DoSData>> countrymap, String ascdesc){
+        // zählen aller Messages pro Country, aus der countrymap
+        HashMap<String,Integer> countryCount = new HashMap<String,Integer>();
         int tmpCount = 0;
         for (Map.Entry<String, ArrayList<DoSData>> entry : countrymap.entrySet()){
-
-            System.out.println("#country: " + entry.getKey().toString() + " | ips: " + entry.getValue().size());
             ArrayList<DoSData> alr = entry.getValue();
-
-
             tmpCount = 0;
             for (DoSData c: alr){
                 tmpCount = tmpCount + c.getMessages().size();
             }
-            System.out.println();
-
+            countryCount.put(entry.getKey().toString(), tmpCount);
+            System.out.println("#country: " + entry.getKey().toString() + " | ips: " + entry.getValue().size() + " | having count messages: " + tmpCount);
         }
-*/
+        return countryCount;
     }
+
 
     public void sortStabw(){
 
+    }
+
+    // get Single IP from DoSList -> Check for null
+    public DoSData getSingleIP(DoSDataList processedData, String ip){
+        DoSData getthis = StaticDos.getSingleIp(processedData, ip);
+        return getthis;
     }
 
 }

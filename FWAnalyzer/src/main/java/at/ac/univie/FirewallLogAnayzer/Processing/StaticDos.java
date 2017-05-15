@@ -94,6 +94,20 @@ public class StaticDos {
         return ddl;
     }
 
+
+    // get Single IP from Hashmap DoSDataList
+    public static DoSData getSingleIp(DoSDataList ddl, String ip){
+        //System.out.println("Search for: " + ip);
+        DoSData singleIp = null;
+        for (int i = 0; i < ddl.getDataEdited().size() ; i++) {
+            if (ddl.getDataEdited().get(i).getMessages().get(0).getSrcIP().equals(ip)){
+                singleIp = ddl.getDataEdited().get(i);
+            }
+        }
+        return singleIp;
+    }
+
+
     // Vergleiche jeweils 2 Zeiten von LogRows und speichere den Wert in ArrayList
     // Alle die nur eine Zeit haben sind nicht relevant
     // Return Wert für Analyse -> Varianz

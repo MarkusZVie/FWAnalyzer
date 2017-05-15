@@ -1,9 +1,12 @@
 package at.ac.univie.FirewallLogAnayzer;
 
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 
-
+import at.ac.univie.FirewallLogAnayzer.Data.DoSData;
+import at.ac.univie.FirewallLogAnayzer.Data.DoSDataList;
 import at.ac.univie.FirewallLogAnayzer.Data.LogTypeSingelton;
 import at.ac.univie.FirewallLogAnayzer.Exceptions.LogIdNotFoundException;
 import at.ac.univie.FirewallLogAnayzer.Input.IInputHandler;
@@ -39,12 +42,30 @@ public class App
 	System.out.println("beep");
 	//test method
         //TemporairProcessing.doSomething();
-
         //TemporairProcessing.testPortScan();
 
+
         // DOS
-         IProcessingAnalyse ip = new AnalyzerDos();
-         ip.analyseDosPing();
+        IProcessingAnalyse da = new AnalyzerDos();
+        DoSDataList ddl = da.analyseDos("icmp");
+
+        // Sort mpm
+        da.sortMessagePerMinute(ddl, "asc");
+
+        // Sort country
+        HashMap<String, ArrayList<DoSData>> countrymap = da.messagesOfCountry(ddl);
+        HashMap<String, Integer> countryCount = da.sumMessagesPerCountry(countrymap, "asc");
+
+        // Get single DosData
+        DoSData ddsingle = da.getSingleIP(ddl, "187.182.134.133");
+        if (ddsingle == null){
+            System.out.println("null");
+        } else {
+            System.out.println("Example value: " + ddsingle.getMessages().get(0).getProtocol());
+        }
+
+
+
 
 
     }
