@@ -7,8 +7,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
+import java.util.*;
+import java.util.concurrent.TimeUnit;
 
+import at.ac.univie.FirewallLogAnayzer.Data.LogRow;
+import at.ac.univie.FirewallLogAnayzer.Data.LogRows;
 import at.ac.univie.FirewallLogAnayzer.Data.PortScanner.PortScan;
 import com.maxmind.geoip2.DatabaseReader;
 import com.maxmind.geoip2.model.CityResponse;
@@ -20,6 +23,7 @@ import com.maxmind.geoip2.record.Subdivision;
 
 import at.ac.univie.FirewallLogAnayzer.Data.IpLocation;
 import at.ac.univie.FirewallLogAnayzer.Exceptions.StringNotFoundException;
+import com.oracle.tools.packager.Log;
 
 public class StaticFunctions {
 	public static String readeFile(String filePath) throws FileNotFoundException {
@@ -135,5 +139,7 @@ public class StaticFunctions {
 		System.out.println(open.toString());
 		return open;
 	}
+
+
 	
 }
