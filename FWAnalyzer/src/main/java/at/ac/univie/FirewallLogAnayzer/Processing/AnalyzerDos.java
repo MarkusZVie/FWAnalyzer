@@ -4,7 +4,6 @@ import at.ac.univie.FirewallLogAnayzer.Data.DoSData;
 import at.ac.univie.FirewallLogAnayzer.Data.DoSDataList;
 import at.ac.univie.FirewallLogAnayzer.Data.IpLocation;
 import at.ac.univie.FirewallLogAnayzer.Data.LogRow;
-import com.oracle.tools.packager.Log;
 
 import java.util.*;
 

@@ -15,7 +15,7 @@ public class StaticDos {
     // 		icmp
     // 		TCP
     public static ArrayList<LogRow> filterProtocol(String protocol){
-        ArrayList fpl = new ArrayList<LogRow>();
+        ArrayList<LogRow> fpl = new ArrayList<LogRow>();
         for(LogRow lr: LogRows.getInstance().getLogRows()){
             if (lr.getProtocol()!= null && lr.getProtocol().equals(protocol)){
                 fpl.add(lr);
@@ -114,7 +114,7 @@ public class StaticDos {
     public static ArrayList<Integer> calcTimeInterval(ArrayList<LogRow> denies){
         System.out.println("  calcTime() for ip: " + denies.get(0).getSrcIP() + " having " + denies.size() + " messages.");
 
-        ArrayList<Integer> differences = new ArrayList();
+        ArrayList<Integer> differences = new ArrayList<>();
 
         for (int i = 0; i<denies.size(); i++){
             if (i+1 < denies.size()) {

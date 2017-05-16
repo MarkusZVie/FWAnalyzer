@@ -23,7 +23,6 @@ import com.maxmind.geoip2.record.Subdivision;
 
 import at.ac.univie.FirewallLogAnayzer.Data.IpLocation;
 import at.ac.univie.FirewallLogAnayzer.Exceptions.StringNotFoundException;
-import com.oracle.tools.packager.Log;
 
 public class StaticFunctions {
 	public static String readeFile(String filePath) throws FileNotFoundException {
