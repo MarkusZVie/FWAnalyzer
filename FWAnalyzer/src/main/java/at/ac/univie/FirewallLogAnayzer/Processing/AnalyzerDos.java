@@ -4,6 +4,7 @@ import at.ac.univie.FirewallLogAnayzer.Data.DoSData;
 import at.ac.univie.FirewallLogAnayzer.Data.DoSDataList;
 import at.ac.univie.FirewallLogAnayzer.Data.IpLocation;
 import at.ac.univie.FirewallLogAnayzer.Data.LogRow;
+import com.oracle.tools.packager.Log;
 
 import java.util.*;
 
@@ -100,18 +101,23 @@ public class AnalyzerDos implements IProcessingAnalyse {
         HashMap<String, ArrayList<DoSData>> countrymap = new HashMap<>();
 
         int failedCountries = 0;
+        ArrayList<DoSData> unassigned = new ArrayList<DoSData>();
 
         for (DoSData dd: dataraw) {
             int check = dd.getMessages().size();
             if (check > 0) {
-                IpLocation iltemp = dd.getMessages().get(0).getLocation();
+                 IpLocation iltemp = dd.getMessages().get(0).getLocation();
                 if (iltemp == null) {
                     //System.out.println("    No IpLocation: ");
                 } else {
                     String check2 = iltemp.getCityName();
                     if (check2 == null) {
                         //System.out.println("    = null: ");
-                        failedCountries++;
+                        int ff = dd.getMessages().size();
+                        failedCountries = failedCountries + ff;
+                        unassigned.add(dd);
+                        //failedCountries++;
+
                     } else {
                         //System.out.println("    country: " + check2);
                         if (!countrymap.containsKey(dd.getMessages().get(0).getLocation().getCountryName())) {
@@ -127,13 +133,10 @@ public class AnalyzerDos implements IProcessingAnalyse {
                     }
                 }
             }
+            countrymap.put("unassignedMessages", unassigned);
         }
-
-        System.out.println("hashmap contains Countrys: " + countrymap.size() + " || failed Countries: " + failedCountries);
-
-
+        System.out.println("hashmap contains Countrys: " + countrymap.size() + " || no country found of Messages: " + failedCountries + " LL" + unassigned.size());
         return countrymap;
-
     }
 
     // zählen aller Messages pro Country, aus der countrymap

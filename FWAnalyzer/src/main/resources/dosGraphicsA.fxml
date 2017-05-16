@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainAP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.ac.univie.FirewallLogAnayzer.GUI.DoSControllerA">
+   <children>
+      <Label fx:id="mainLabel" layoutX="230.0" layoutY="14.0" prefHeight="17.0" prefWidth="141.0" text="DoS - A Section" />
+      <AnchorPane fx:id="apCenter" layoutY="43.0" prefHeight="353.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>

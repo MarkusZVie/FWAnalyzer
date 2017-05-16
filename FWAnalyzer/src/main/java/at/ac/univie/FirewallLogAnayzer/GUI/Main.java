@@ -16,12 +16,13 @@ public class Main extends Application {
     private static BorderPane rootLayout;
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(Stage primaryStage) throws IOException {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("Init Test haha");
 
         setRootLayout();
-        initFileTab();
+        //initFileTab();
+        changeScene("/dosGraphicsA.fxml");
     }
 
     public static BorderPane getRoot() {
