@@ -30,7 +30,7 @@ public class App
         // /Users/josefweber/Desktop/SyslogCatchAll-2017-03-14.txt
         // C:\Users\Lezard\Desktop\SyslogCatchAll-2017-03-14.txt
         try {
-		inputHandler.loadeFirewallLog("LogFiles", LogTypeSingelton.getInstance().getSupportedLogTypeList().get(0));
+		inputHandler.loadeFirewallLog("C:\\Users\\Lezard\\Desktop\\activeFWLogs", LogTypeSingelton.getInstance().getSupportedLogTypeList().get(0));
 	} catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();

@@ -20,8 +20,12 @@ import java.util.regex.Pattern;
 public abstract class Parser {
 	
 	protected long numberOfRowsReaded;
+	protected long numberToRead;
 	
-	
+
+	public synchronized long getNumberToRead() {
+		return numberToRead;
+	}
 
 	public synchronized long getNumberOfRowsReaded() {
 		return numberOfRowsReaded;

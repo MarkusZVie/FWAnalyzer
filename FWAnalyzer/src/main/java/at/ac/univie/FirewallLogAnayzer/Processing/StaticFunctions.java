@@ -26,8 +26,9 @@ import at.ac.univie.FirewallLogAnayzer.Data.IpLocation;
 import at.ac.univie.FirewallLogAnayzer.Exceptions.StringNotFoundException;
 
 public class StaticFunctions {
-	public static String readeFile(String filePath) throws FileNotFoundException {
+	public static String[] readeFile(String filePath) throws FileNotFoundException {
 		//http://stackoverflow.com/questions/4716503/reading-a-plain-text-file-in-java
+		int numberOfRows=0;
 		File choosenFile = new File(filePath);
 		File[] targrtFiles = choosenFile.listFiles();
 		if(targrtFiles==null){
@@ -42,8 +43,10 @@ public class StaticFunctions {
 	
 			    while (line != null) {
 			        sb.append(line);
+			        numberOfRows++;
 			        sb.append(System.lineSeparator());
 			        line = br.readLine();
+			        
 			    }
 			    //add every line to logFileContent
 			} catch (IOException e) {
@@ -51,7 +54,10 @@ public class StaticFunctions {
 				e.printStackTrace();
 			}
 		}
-		return sb.toString();
+		String[] returnString = new String[2];
+		returnString[0]=sb.toString();
+		returnString[1]=numberOfRows+"";
+		return returnString;
 		
 	}
 	

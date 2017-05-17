@@ -19,8 +19,14 @@ import at.ac.univie.FirewallLogAnayzer.Processing.StaticFunctions;
 
 public class ParserCisco extends Parser{
 
+	public ParserCisco(int numberOfRows) {
+		numberToRead = numberOfRows;
+	}
+
 	public void parse(String logFileContent) {
 		//read LogFile row by row
+		
+		
 		BufferedReader reader = new BufferedReader(new StringReader(logFileContent));
 		try {
 			String line = reader.readLine();
