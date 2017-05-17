@@ -2,6 +2,8 @@ package at.ac.univie.FirewallLogAnayzer;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 
 
@@ -30,7 +32,7 @@ public class App
         // /Users/josefweber/Desktop/SyslogCatchAll-2017-03-14.txt
         // C:\Users\Lezard\Desktop\SyslogCatchAll-2017-03-14.txt
         try {
-		inputHandler.loadeFirewallLog("C:\\Users\\Lezard\\Desktop\\activeFWLogs", LogTypeSingelton.getInstance().getSupportedLogTypeList().get(0));
+		inputHandler.loadeFirewallLog("/Users/josefweber/Desktop/SyslogCatchAll-2017-03-14.txt", LogTypeSingelton.getInstance().getSupportedLogTypeList().get(0));
 	} catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -47,14 +49,14 @@ public class App
 
         // DOS
         IProcessingAnalyse da = new AnalyzerDos();
-        DoSDataList ddl = da.analyseDos("icmp");
+        DoSDataList ddl = da.analyseDos("icmp", 60     );
 
         // Sort mpm
-        da.sortMessagePerMinute(ddl, "asc");
+        //da.sortMessagePerMinute(ddl, "asc");
 
         // Sort country
-        HashMap<String, ArrayList<DoSData>> countrymap = da.messagesOfCountry(ddl);
-        HashMap<String, Integer> countryCount = da.sumMessagesPerCountry(countrymap, "asc");
+        //HashMap<String, ArrayList<DoSData>> countrymap = da.messagesOfCountry(ddl);
+        //HashMap<String, Integer> countryCount = da.sumMessagesPerCountry(countrymap, "asc");
 
         // Get single DosData
         /*
@@ -66,11 +68,30 @@ public class App
         }
         */
 
+        DoSData td1 = ddl.getDataEdited().get(5);
+        System.out.println(td1.getMptList().toString() + " ip=" + td1.getMessages().get(0).getSrcIP());
 
 
 
 
+        // Test Message Per Time
+        for (int i = 0; i < ddl.getDataEdited().size(); i++) {
+            DoSData tdTmp = ddl.getDataEdited().get(i);
+            System.out.println(tdTmp.getMptList().toString());
+        }
+
+
+
+
+        /*
+        DoSData ddTest = ddl.getDataEdited().get(8);
+        ddTest.calcMsgPerSlot(20);
+        System.out.println(ddTest.getMessages().size());
+        System.out.println("----");
+        */
 
 
     }
+
+
 }

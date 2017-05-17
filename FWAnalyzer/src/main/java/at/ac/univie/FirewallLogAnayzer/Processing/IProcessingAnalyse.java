@@ -11,7 +11,7 @@ public interface IProcessingAnalyse {
 	// TCP - SYN -flood
 	// icmp - flood
 	// layer 7 - Application - flood
-	public DoSDataList analyseDos(String dosProtocolType);
+	public DoSDataList analyseDos(String dosProtocolType, int timeSlot);
 
 	public void analyseDDoS();
 

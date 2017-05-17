@@ -112,7 +112,7 @@ public class StaticDos {
     // Alle die nur eine Zeit haben sind nicht relevant
     // Return Wert für Analyse -> Varianz
     public static ArrayList<Integer> calcTimeInterval(ArrayList<LogRow> denies){
-        System.out.println("  calcTime() for ip: " + denies.get(0).getSrcIP() + " having " + denies.size() + " messages.");
+        //System.out.println("  calcTime() for ip: " + denies.get(0).getSrcIP() + " having " + denies.size() + " messages.");
 
         ArrayList<Integer> differences = new ArrayList<>();
 
@@ -130,6 +130,12 @@ public class StaticDos {
             }
         }
         return differences;
+    }
+
+    public static void assignMpt(DoSDataList ddl, int minutes){
+        for (DoSData dd: ddl.getDataEdited()){
+            dd.setMpt(minutes);
+        }
     }
 
 }

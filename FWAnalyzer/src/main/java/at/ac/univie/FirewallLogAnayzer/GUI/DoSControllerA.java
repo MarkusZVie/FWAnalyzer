@@ -165,7 +165,7 @@ public class DoSControllerA {
         // /Users/josefweber/Desktop/SyslogCatchAll-2017-03-14.txt
         // C:\Users\Lezard\Desktop\SyslogCatchAll-2017-03-14.txt
         try {
-            inputHandler.loadeFirewallLog("Files\\SyslogCatchAll-2017-03-14.txt", LogTypeSingelton.getInstance().getSupportedLogTypeList().get(0));
+            inputHandler.loadeFirewallLog("/Users/josefweber/Desktop/SyslogCatchAll-2017-03-14.txt", LogTypeSingelton.getInstance().getSupportedLogTypeList().get(0));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (LogIdNotFoundException e) {
@@ -173,7 +173,7 @@ public class DoSControllerA {
         }
         // DOS
         IProcessingAnalyse da = new AnalyzerDos();
-        DoSDataList ddl = da.analyseDos("icmp");
+        DoSDataList ddl = da.analyseDos("icmp", 60);
         // Sort mpm
         da.sortMessagePerMinute(ddl, "asc");
         // Sort country to Controller-Objekt
