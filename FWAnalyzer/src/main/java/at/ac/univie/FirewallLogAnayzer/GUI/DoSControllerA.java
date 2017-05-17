@@ -165,7 +165,7 @@ public class DoSControllerA {
         // /Users/josefweber/Desktop/SyslogCatchAll-2017-03-14.txt
         // C:\Users\Lezard\Desktop\SyslogCatchAll-2017-03-14.txt
         try {
-            inputHandler.loadeFirewallLog("/Users/josefweber/Desktop/SyslogCatchAll-2017-03-14.txt", LogTypeSingelton.getInstance().getSupportedLogTypeList().get(0));
+            inputHandler.loadeFirewallLog("Files\\SyslogCatchAll-2017-03-14.txt", LogTypeSingelton.getInstance().getSupportedLogTypeList().get(0));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (LogIdNotFoundException e) {

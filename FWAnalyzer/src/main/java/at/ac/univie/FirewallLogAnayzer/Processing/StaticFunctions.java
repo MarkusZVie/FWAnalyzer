@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -25,26 +26,38 @@ import at.ac.univie.FirewallLogAnayzer.Data.IpLocation;
 import at.ac.univie.FirewallLogAnayzer.Exceptions.StringNotFoundException;
 
 public class StaticFunctions {
-	public static String readeFile(String filePath) throws FileNotFoundException {
+	public static String[] readeFile(String filePath) throws FileNotFoundException {
 		//http://stackoverflow.com/questions/4716503/reading-a-plain-text-file-in-java
-		
-		String logFileContent = "";
-		try(BufferedReader br = new BufferedReader(new FileReader(filePath))) {
-		    StringBuilder sb = new StringBuilder();
-		    String line = br.readLine();
-
-		    while (line != null) {
-		        sb.append(line);
-		        sb.append(System.lineSeparator());
-		        line = br.readLine();
-		    }
-		    //add every line to logFileContent
-		    logFileContent = sb.toString();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		int numberOfRows=0;
+		File choosenFile = new File(filePath);
+		File[] targrtFiles = choosenFile.listFiles();
+		if(targrtFiles==null){
+			targrtFiles = new File[1];
+			targrtFiles[0] = choosenFile;
 		}
-		return logFileContent;
+		StringBuilder sb = new StringBuilder();
+		for(File f:targrtFiles){
+			try(BufferedReader br = new BufferedReader(new FileReader(f))) {
+			    
+			    String line = br.readLine();
+	
+			    while (line != null) {
+			        sb.append(line);
+			        numberOfRows++;
+			        sb.append(System.lineSeparator());
+			        line = br.readLine();
+			        
+			    }
+			    //add every line to logFileContent
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		String[] returnString = new String[2];
+		returnString[0]=sb.toString();
+		returnString[1]=numberOfRows+"";
+		return returnString;
 		
 	}
 	
@@ -137,6 +150,20 @@ public class StaticFunctions {
 		ArrayList open= ps.getopenPorts();
 		System.out.println(open.toString());
 		return open;
+	}
+
+	public static void cleanFile(String filePath) {
+		PrintWriter writer;
+		try {
+			writer = new PrintWriter(new File(filePath));
+	        writer.write("");
+		    writer.close();
+		           
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 
 
