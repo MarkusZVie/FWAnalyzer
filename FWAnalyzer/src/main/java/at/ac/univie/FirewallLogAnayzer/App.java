@@ -57,12 +57,16 @@ public class App
         HashMap<String, Integer> countryCount = da.sumMessagesPerCountry(countrymap, "asc");
 
         // Get single DosData
+        /*
         DoSData ddsingle = da.getSingleIP(ddl, "187.182.134.133");
         if (ddsingle == null){
             System.out.println("null");
         } else {
             System.out.println("Example value: " + ddsingle.getMessages().get(0).getProtocol());
         }
+        */
+
+
 
 
 

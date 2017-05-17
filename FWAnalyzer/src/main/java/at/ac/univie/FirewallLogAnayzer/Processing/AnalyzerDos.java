@@ -13,7 +13,7 @@ public class AnalyzerDos implements IProcessingAnalyse {
 
     @Override
     public DoSDataList analyseDos(String dosProtocolType) {
-        System.out.println("analyseDos(): Analyse TCP-SYN-DoS: " + dosProtocolType);
+        System.out.println("analyseDos(): Analyse " + dosProtocolType);
 
         // get Protocol dedicated LogRows
         ArrayList<LogRow> fpl = StaticDos.filterProtocol(dosProtocolType);

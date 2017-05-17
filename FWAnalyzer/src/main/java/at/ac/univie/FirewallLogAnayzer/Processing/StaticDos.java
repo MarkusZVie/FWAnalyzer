@@ -84,8 +84,8 @@ public class StaticDos {
                 ArrayList<Integer> oneIpDifferences = calcTimeInterval(alr);
                 StandardDeviation sData = new StandardDeviation(oneIpDifferences);
 
-                System.out.println(sData.toString());
-                System.out.println("---------------");
+                //System.out.println(sData.toString());
+                //System.out.println("---------------");
 
                 DoSData dd = new DoSData(alr, sData);
                 ddl.addDoSData(dd);

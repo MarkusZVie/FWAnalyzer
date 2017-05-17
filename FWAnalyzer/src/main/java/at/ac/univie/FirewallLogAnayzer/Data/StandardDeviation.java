@@ -10,6 +10,7 @@ public class StandardDeviation {
     private double stabw;
     private double mittelwert;
     private double messagesPerTime;
+    private ArrayList<Double> mptSlotted;
 
     public StandardDeviation(ArrayList<Integer> differences){
         this.differences = differences;
@@ -62,6 +63,11 @@ public class StandardDeviation {
         return messages/time;
     }
 
+    public ArrayList<Double> calcMpt(){
+        mptSlotted = new ArrayList<>();
+        return mptSlotted;
+    }
+
     public String toString(){
         return "Mittelwert    : " + mittelwert + "\nVarianz       : " + varianz + "\nSt. Abweichung: " + stabw + "\nDifferences   : " + differences.size();
         /*
@@ -69,5 +75,9 @@ public class StandardDeviation {
             System.out.print(i + "-" + differences.get(i));
         }
         */
+    }
+
+    public ArrayList<Integer> getDifferences() {
+        return differences;
     }
 }
