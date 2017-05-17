@@ -1,0 +1,1190 @@
+2017-04-12 00:00:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 197.24.247.125/64653 to outside:FW-Virtual-SRV/23
+2017-04-12 00:02:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/56063 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/57298 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/57336 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/57418 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/56063 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/57298 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/57336 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/59712 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/57418 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/59712 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/56063 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/57298 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/57336 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/57418 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/59712 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:48	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/5137 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/5137 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/7496 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/7496 to outside:FW-Virtual-SRV/22
+2017-04-12 00:02:57	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/5137 to outside:FW-Virtual-SRV/22
+2017-04-12 00:03:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/7496 to outside:FW-Virtual-SRV/22
+2017-04-12 00:03:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.99.214.67/2419 to outside:FW-Virtual-SRV/23
+2017-04-12 00:03:41	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.59.252.251/12640 to outside:FW-Virtual-SRV/23
+2017-04-12 00:05:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.96.173/25536 to outside:FW-Virtual-SRV/23
+2017-04-12 00:06:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.202.50.179/52485 to outside:FW-Virtual-SRV/23
+2017-04-12 00:06:27	Local4.Notice	192.168.1.112	%ASA-5-713075: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, Overriding Initiator's IPSec rekeying duration from 2147483 to 28800 seconds
+2017-04-12 00:06:27	Local4.Notice	192.168.1.112	%ASA-5-713049: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, Security negotiation complete for User (sp01)  Initiator, Inbound SPI = 0x6b90a991, Outbound SPI = 0x200976c8
+2017-04-12 00:06:27	Local4.Notice	192.168.1.112	%ASA-5-713120: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, PHASE 2 COMPLETED (msgid=b76ddfaa)
+2017-04-12 00:08:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.80.186.20/55461 to outside:FW-Virtual-SRV/23
+2017-04-12 00:08:05	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/41670 to outside:173.194.79.26/25; matched Class 4: header line length gt 998 
+2017-04-12 00:08:05	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/41670 to outside:173.194.79.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 00:09:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 121.97.205.161/16925 to outside:FW-Virtual-SRV/23
+2017-04-12 00:09:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 85.134.9.87/53195 to outside:FW-Virtual-SRV/23
+2017-04-12 00:09:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.147.29.136/54906 to outside:FW-Virtual-SRV/23
+2017-04-12 00:09:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.24.129.70/35441 to outside:FW-Virtual-SRV/23
+2017-04-12 00:10:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.107.162.6/44020 to outside:FW-Virtual-SRV/23
+2017-04-12 00:11:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.132.41.71/38784 to outside:FW-Virtual-SRV/23
+2017-04-12 00:11:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 124.124.17.237/21866 to outside:FW-Virtual-SRV/23
+2017-04-12 00:11:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 00:13:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 00:16:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 81.214.126.221/54972 to outside:FW-Virtual-SRV/23
+2017-04-12 00:20:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.35.65.14/7820 to outside:FW-Virtual-SRV/23
+2017-04-12 00:22:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 119.57.136.171/31807 to outside:FW-Virtual-SRV/23
+2017-04-12 00:23:06	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/41826 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 00:23:06	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/41826 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 00:29:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 1.186.217.193/11232 to outside:FW-Virtual-SRV/23
+2017-04-12 00:29:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 71.190.66.15/40495 to outside:FW-Virtual-SRV/23
+2017-04-12 00:33:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.111.11.218/50798 to outside:FW-Virtual-SRV/23
+2017-04-12 00:36:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 42.7.26.15/9090 to outside:FW-Virtual-SRV/22
+2017-04-12 00:36:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 112.72.6.142/40903 to outside:FW-Virtual-SRV/23
+2017-04-12 00:36:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 00:36:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 00:38:07	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/41952 to outside:108.177.96.26/25; matched Class 4: header line length gt 998 
+2017-04-12 00:38:07	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/41952 to outside:108.177.96.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 00:38:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.17.44.81/2930 to outside:FW-Virtual-SRV/23
+2017-04-12 00:41:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 14.186.69.216/53643 to outside:FW-Virtual-SRV/23
+2017-04-12 00:41:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 00:41:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 00:45:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.218.159.94/45997 to outside:FW-Virtual-SRV/23
+2017-04-12 00:46:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 123.234.240.133/11958 to outside:FW-Virtual-SRV/23
+2017-04-12 00:46:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 189.75.34.212/55276 to outside:FW-Virtual-SRV/23
+2017-04-12 00:47:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.232.21.200/12652 to outside:FW-Virtual-SRV/23
+2017-04-12 00:49:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 51.171.11.255/54875 to outside:FW-Virtual-SRV/23
+2017-04-12 00:53:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.178.25.250/53738 to outside:FW-Virtual-SRV/23
+2017-04-12 00:53:07	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/42076 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 00:53:07	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/42076 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 00:55:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 93.118.116.123/55898 to outside:FW-Virtual-SRV/23
+2017-04-12 00:57:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 111.40.168.90/49177 to outside:FW-Virtual-SRV/22
+2017-04-12 00:59:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 106.47.168.121/34105 to outside:FW-Virtual-SRV/23
+2017-04-12 01:04:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 171.212.143.111/64668 to outside:FW-Virtual-SRV/23
+2017-04-12 01:04:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 152.171.179.49/62112 to outside:FW-Virtual-SRV/23
+2017-04-12 01:05:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 27.218.112.32/38209 to outside:FW-Virtual-SRV/22
+2017-04-12 01:05:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.100.162.220/58207 to outside:FW-Virtual-SRV/23
+2017-04-12 01:08:08	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/42213 to outside:74.125.128.27/25; matched Class 4: header line length gt 998 
+2017-04-12 01:08:08	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/42213 to outside:74.125.128.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 01:12:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 193.200.183.176/14673 to outside:FW-Virtual-SRV/23
+2017-04-12 01:14:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 42.52.198.134/9082 to outside:FW-Virtual-SRV/23
+2017-04-12 01:15:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 60.250.230.123/63044 to outside:FW-Virtual-SRV/23
+2017-04-12 01:19:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 223.229.151.20/41257 to outside:FW-Virtual-SRV/22
+2017-04-12 01:20:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:20:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:21:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.46.113.122/35888 to outside:FW-Virtual-SRV/23
+2017-04-12 01:23:08	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/42347 to outside:108.177.96.26/25; matched Class 4: header line length gt 998 
+2017-04-12 01:23:08	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/42347 to outside:108.177.96.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 01:23:22	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.252.107.250/4419 to outside:FW-Virtual-SRV/23
+2017-04-12 01:24:22	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.122.191.91/53956 to outside:FW-Virtual-SRV/23
+2017-04-12 01:30:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:30:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 189.75.9.49/27387 to outside:FW-Virtual-SRV/23
+2017-04-12 01:30:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:30:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 171.212.142.32/54719 to outside:FW-Virtual-SRV/22
+2017-04-12 01:30:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:31:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:32:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.126.100.160/51245 to outside:FW-Virtual-SRV/23
+2017-04-12 01:32:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:34:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 78.154.222.76/53466 to outside:FW-Virtual-SRV/23
+2017-04-12 01:34:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 58.62.120.133/5751 to outside:FW-Virtual-SRV/22
+2017-04-12 01:35:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 192.151.169.29/54014 to outside:FW-Virtual-SRV/23
+2017-04-12 01:36:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.133.224.252/40374 to outside:FW-Virtual-SRV/22
+2017-04-12 01:37:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 82.57.4.139/28819 to outside:FW-Virtual-SRV/22
+2017-04-12 01:38:09	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/42485 to outside:173.194.79.26/25; matched Class 4: header line length gt 998 
+2017-04-12 01:38:09	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/42485 to outside:173.194.79.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 01:40:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 110.19.24.54/4812 to outside:FW-Virtual-SRV/23
+2017-04-12 01:40:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 110.19.24.54/4812 to outside:FW-Virtual-SRV/23
+2017-04-12 01:40:29	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 110.19.24.54/4812 to outside:FW-Virtual-SRV/23
+2017-04-12 01:42:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 58.84.177.238/35858 to outside:FW-Virtual-SRV/23
+2017-04-12 01:43:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 194.42.201.62/51305 to outside:FW-Virtual-SRV/22
+2017-04-12 01:47:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:48:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:50:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:50:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.141.55.113/41510 to outside:FW-Virtual-SRV/23
+2017-04-12 01:50:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:52:10	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 68.182.34.106/33102 to outside:FW-Virtual-SRV/23
+2017-04-12 01:52:41	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.228.109.199/21426 to outside:FW-Virtual-SRV/23
+2017-04-12 01:53:10	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/42612 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 01:53:10	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/42612 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 01:53:48	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.163.121.28/32574 to outside:FW-Virtual-SRV/23
+2017-04-12 01:54:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 01:55:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 149.172.150.218/30070 to outside:FW-Virtual-SRV/23
+2017-04-12 01:56:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 49.206.162.78/10511 to outside:FW-Virtual-SRV/23
+2017-04-12 02:00:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 151.40.125.233/7324 to outside:FW-Virtual-SRV/22
+2017-04-12 02:01:26	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 105.102.6.74/41818 to outside:FW-Virtual-SRV/23
+2017-04-12 02:01:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 02:02:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 02:03:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 176.110.57.27/17538 to outside:FW-Virtual-SRV/23
+2017-04-12 02:04:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.79.60.225/60918 to outside:FW-Virtual-SRV/23
+2017-04-12 02:06:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 02:06:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 109.229.176.197/23165 to outside:FW-Virtual-SRV/23
+2017-04-12 02:06:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 02:06:29	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.183.203.158/37532 to outside:FW-Virtual-SRV/22
+2017-04-12 02:07:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 113.106.8.175/5472 to outside:FW-Virtual-SRV/23
+2017-04-12 02:07:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.255.106.41/49750 to outside:FW-Virtual-SRV/23
+2017-04-12 02:08:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 02:08:10	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/42734 to outside:173.194.73.26/25; matched Class 4: header line length gt 998 
+2017-04-12 02:08:10	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/42734 to outside:173.194.73.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 02:08:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.179.28.4/5371 to outside:FW-Virtual-SRV/23
+2017-04-12 02:09:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 86.35.20.169/55049 to outside:FW-Virtual-SRV/23
+2017-04-12 02:11:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 117.241.162.144/13313 to outside:FW-Virtual-SRV/23
+2017-04-12 02:12:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.10.166.107/3765 to outside:FW-Virtual-SRV/23
+2017-04-12 02:14:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 94.50.54.17/38281 to outside:FW-Virtual-SRV/23
+2017-04-12 02:15:48	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.148.45.85/39814 to outside:FW-Virtual-SRV/23
+2017-04-12 02:16:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.26.121.148/55059 to outside:FW-Virtual-SRV/23
+2017-04-12 02:18:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.127.26.160/58769 to outside:FW-Virtual-SRV/23
+2017-04-12 02:21:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.14.137.43/45387 to outside:FW-Virtual-SRV/23
+2017-04-12 02:21:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 94.143.199.164/2908 to outside:FW-Virtual-SRV/23
+2017-04-12 02:21:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 94.143.199.164/2908 to outside:FW-Virtual-SRV/23
+2017-04-12 02:21:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 94.143.199.164/2908 to outside:FW-Virtual-SRV/23
+2017-04-12 02:23:11	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/42881 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 02:23:11	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/42881 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 02:23:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.230.85.55/35615 to outside:FW-Virtual-SRV/23
+2017-04-12 02:23:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.230.85.55/35615 to outside:FW-Virtual-SRV/23
+2017-04-12 02:25:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 42.115.243.26/42350 to outside:FW-Virtual-SRV/23
+2017-04-12 02:26:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.184.63.211/1397 to outside:FW-Virtual-SRV/23
+2017-04-12 02:27:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.53.113.195/24709 to outside:FW-Virtual-SRV/23
+2017-04-12 02:27:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.207.37.24/56094 to outside:FW-Virtual-SRV/22
+2017-04-12 02:27:57	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.151.42.140/5742 to outside:FW-Virtual-SRV/23
+2017-04-12 02:29:25	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 78.187.44.59/27965 to outside:FW-Virtual-SRV/23
+2017-04-12 02:31:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 80.82.70.26/48001 to outside:FW-Virtual-SRV/23
+2017-04-12 02:33:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.127.26.160/58769 to outside:FW-Virtual-SRV/23
+2017-04-12 02:34:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 36.70.7.97/10266 to outside:FW-Virtual-SRV/23
+2017-04-12 02:36:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.46.43.39/52968 to outside:FW-Virtual-SRV/23
+2017-04-12 02:38:12	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/43001 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 02:38:12	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/43001 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 02:38:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.127.26.160/58769 to outside:FW-Virtual-SRV/23
+2017-04-12 02:43:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.64.98.244/9967 to outside:FW-Virtual-SRV/23
+2017-04-12 02:45:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 113.235.51.210/25958 to outside:FW-Virtual-SRV/22
+2017-04-12 02:50:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 117.21.248.87/7203 to outside:FW-Virtual-SRV/22
+2017-04-12 02:51:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.241.74.71/45916 to outside:FW-Virtual-SRV/22
+2017-04-12 02:53:13	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/43129 to outside:74.125.128.26/25; matched Class 4: header line length gt 998 
+2017-04-12 02:53:13	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/43129 to outside:74.125.128.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 03:00:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.127.26.160/58769 to outside:FW-Virtual-SRV/23
+2017-04-12 03:00:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.42.183.87/7843 to outside:FW-Virtual-SRV/23
+2017-04-12 03:01:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 49.1.35.20/51713 to outside:FW-Virtual-SRV/23
+2017-04-12 03:02:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 94.51.129.113/31891 to outside:FW-Virtual-SRV/23
+2017-04-12 03:06:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 88.234.177.144/13475 to outside:FW-Virtual-SRV/23
+2017-04-12 03:06:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.161.186/38924 to outside:FW-Virtual-SRV/23
+2017-04-12 03:08:14	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/43265 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 03:08:14	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/43265 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 03:09:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 78.134.3.49/16382 to outside:FW-Virtual-SRV/23
+2017-04-12 03:09:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 62.141.240.29/32338 to outside:FW-Virtual-SRV/23
+2017-04-12 03:12:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.23.5.187/14640 to outside:FW-Virtual-SRV/22
+2017-04-12 03:14:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 152.171.160.29/57938 to outside:FW-Virtual-SRV/23
+2017-04-12 03:16:32	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.97.222.10/23741 to outside:FW-Virtual-SRV/22
+2017-04-12 03:17:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 183.188.41.73/62147 to outside:FW-Virtual-SRV/23
+2017-04-12 03:17:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.192.187.127/9020 to outside:FW-Virtual-SRV/23
+2017-04-12 03:18:32	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 88.225.232.47/26243 to outside:FW-Virtual-SRV/23
+2017-04-12 03:19:16	Local4.Notice	192.168.1.112	%ASA-5-713119: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, PHASE 1 COMPLETED
+2017-04-12 03:20:45	Local4.Notice	192.168.1.112	%ASA-5-713050: Group = chvtunnel, Username = am01, IP = 213.160.170.115, Connection terminated for peer am01.  Reason: Peer Terminate  Remote Proxy 192.168.1.8, Local Proxy 0.0.0.0
+2017-04-12 03:20:45	Local4.Notice	192.168.1.112	%ASA-5-713259: Group = chvtunnel, Username = am01, IP = 213.160.170.115, Session is being torn down. Reason: User Requested
+2017-04-12 03:20:45	Local4.Warning	192.168.1.112	%ASA-4-113019: Group = chvtunnel, Username = am01, IP = 213.160.170.115, Session disconnected. Session Type: IPsecOverNatT, Duration: 14d 20h:34m:50s, Bytes xmt: 150664303, Bytes rcv: 22533103, Reason: User Requested
+2017-04-12 03:20:45	Local4.Notice	192.168.1.112	%ASA-5-713904: IP = 213.160.170.115, Received encrypted packet with no matching SA, dropping
+2017-04-12 03:20:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 116.110.41.142/5609 to outside:FW-Virtual-SRV/23
+2017-04-12 03:22:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 46.239.161.166/27574 to outside:FW-Virtual-SRV/23
+2017-04-12 03:23:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 14.189.156.113/10305 to outside:FW-Virtual-SRV/23
+2017-04-12 03:23:14	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/43403 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 03:23:14	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/43403 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 03:26:57	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 121.154.255.176/12841 to outside:FW-Virtual-SRV/23
+2017-04-12 03:27:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.133.173.154/30632 to outside:FW-Virtual-SRV/23
+2017-04-12 03:29:26	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 183.60.48.25/12215 to outside:FW-Virtual-SRV/22
+2017-04-12 03:30:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 85.100.124.67/61686 to outside:FW-Virtual-SRV/23
+2017-04-12 03:38:14	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/43546 to outside:74.125.128.26/25; matched Class 4: header line length gt 998 
+2017-04-12 03:38:14	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/43546 to outside:74.125.128.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 03:38:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 113.229.10.173/21359 to outside:FW-Virtual-SRV/22
+2017-04-12 03:39:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.133.173.154/30632 to outside:FW-Virtual-SRV/23
+2017-04-12 03:39:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.232.81.124/30649 to outside:FW-Virtual-SRV/23
+2017-04-12 03:40:41	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 27.64.117.150/35088 to outside:FW-Virtual-SRV/23
+2017-04-12 03:42:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 171.43.223.244/48161 to outside:FW-Virtual-SRV/23
+2017-04-12 03:43:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.35.216.87/24489 to outside:FW-Virtual-SRV/23
+2017-04-12 03:44:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 78.100.226.234/7911 to outside:FW-Virtual-SRV/23
+2017-04-12 03:45:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 89.216.76.145/18993 to outside:FW-Virtual-SRV/23
+2017-04-12 03:46:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.68.209.148/27173 to outside:FW-Virtual-SRV/22
+2017-04-12 03:48:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 211.235.33.158/51947 to outside:FW-Virtual-SRV/23
+2017-04-12 03:49:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.22.218.135/36239 to outside:FW-Virtual-SRV/23
+2017-04-12 03:50:13	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.19.218.205/28506 to outside:FW-Virtual-SRV/23
+2017-04-12 03:51:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.183.154.134/50923 to outside:FW-Virtual-SRV/23
+2017-04-12 03:51:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.101.124/9835 to outside:FW-Virtual-SRV/23
+2017-04-12 03:53:15	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/43674 to outside:74.125.128.26/25; matched Class 4: header line length gt 998 
+2017-04-12 03:53:15	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/43674 to outside:74.125.128.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 03:54:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.38.242.226/60053 to outside:FW-Virtual-SRV/22
+2017-04-12 03:54:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 37.252.90.172/33614 to outside:FW-Virtual-SRV/23
+2017-04-12 03:59:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 90.156.100.161/9900 to outside:FW-Virtual-SRV/23
+2017-04-12 03:59:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.140.13.173/61818 to outside:FW-Virtual-SRV/23
+2017-04-12 04:02:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 87.251.217.143/46270 to outside:FW-Virtual-SRV/23
+2017-04-12 04:02:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 36.238.83.163/14851 to outside:FW-Virtual-SRV/22
+2017-04-12 04:05:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.249.76.232/13288 to outside:FW-Virtual-SRV/23
+2017-04-12 04:05:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.219.64.43/22858 to outside:FW-Virtual-SRV/23
+2017-04-12 04:07:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.3.193.16/58081 to outside:FW-Virtual-SRV/23
+2017-04-12 04:08:16	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/43804 to outside:74.125.128.27/25; matched Class 4: header line length gt 998 
+2017-04-12 04:08:16	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/43804 to outside:74.125.128.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 04:09:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.227.234.108/55634 to outside:FW-Virtual-SRV/22
+2017-04-12 04:11:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 60.249.181.152/6907 to outside:FW-Virtual-SRV/23
+2017-04-12 04:12:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 27.79.43.242/11112 to outside:FW-Virtual-SRV/23
+2017-04-12 04:14:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 221.198.244.56/6234 to outside:FW-Virtual-SRV/23
+2017-04-12 04:17:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.229.63.134/48463 to outside:FW-Virtual-SRV/23
+2017-04-12 04:18:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.161.152.72/12026 to outside:FW-Virtual-SRV/23
+2017-04-12 04:18:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 58.209.85.230/15420 to outside:FW-Virtual-SRV/23
+2017-04-12 04:19:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.196.135.55/17848 to outside:FW-Virtual-SRV/23
+2017-04-12 04:19:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.219.64.43/22858 to outside:FW-Virtual-SRV/23
+2017-04-12 04:21:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 42.228.237.142/2490 to outside:FW-Virtual-SRV/22
+2017-04-12 04:23:08	Local4.Error	192.168.1.112	%ASA-3-713048: IP = 216.218.206.90, Error processing payload: Payload ID: 1
+2017-04-12 04:23:16	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/43957 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 04:23:16	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/43957 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 04:23:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.32.145.200/49336 to outside:FW-Virtual-SRV/23
+2017-04-12 04:27:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.49.146.3/7557 to outside:FW-Virtual-SRV/23
+2017-04-12 04:29:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.140.23.158/51408 to outside:FW-Virtual-SRV/23
+2017-04-12 04:31:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 148.56.37.21/18873 to outside:FW-Virtual-SRV/23
+2017-04-12 04:37:16	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 1.236.209.195/40629 to outside:FW-Virtual-SRV/23
+2017-04-12 04:38:17	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/44096 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 04:38:17	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/44096 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 04:39:26	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.94.103.33/2555 to outside:FW-Virtual-SRV/23
+2017-04-12 04:43:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 92.81.118.152/50566 to outside:FW-Virtual-SRV/23
+2017-04-12 04:43:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 197.50.182.38/44565 to outside:FW-Virtual-SRV/23
+2017-04-12 04:44:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 37.79.91.206/46516 to outside:FW-Virtual-SRV/23
+2017-04-12 04:45:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 112.112.111.188/13274 to outside:FW-Virtual-SRV/23
+2017-04-12 04:46:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 113.209.68.135/58949 to outside:FW-Virtual-SRV/22
+2017-04-12 04:47:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.99.117.240/49682 to outside:FW-Virtual-SRV/23
+2017-04-12 04:50:26	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 58.58.241.86/19967 to outside:FW-Virtual-SRV/23
+2017-04-12 04:52:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.11.10.95/9074 to outside:FW-Virtual-SRV/22
+2017-04-12 04:53:17	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/44224 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 04:53:17	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/44224 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 04:53:25	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 106.104.2.63/58335 to outside:FW-Virtual-SRV/23
+2017-04-12 04:56:25	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.62.191.229/49551 to outside:FW-Virtual-SRV/23
+2017-04-12 04:57:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.226.155.42/34196 to outside:FW-Virtual-SRV/23
+2017-04-12 04:59:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.129.160.101/12398 to outside:FW-Virtual-SRV/23
+2017-04-12 05:02:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 96.92.194.190/41502 to outside:FW-Virtual-SRV/23
+2017-04-12 05:04:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 189.244.6.51/3824 to outside:FW-Virtual-SRV/23
+2017-04-12 05:08:18	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/44372 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 05:08:18	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/44372 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 05:10:48	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.72.225.56/43736 to outside:FW-Virtual-SRV/23
+2017-04-12 05:12:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 60.169.194.133/36978 to outside:FW-Virtual-SRV/23
+2017-04-12 05:13:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 69.248.252.72/41875 to outside:FW-Virtual-SRV/23
+2017-04-12 05:15:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.39.23.109/33380 to outside:FW-Virtual-SRV/23
+2017-04-12 05:15:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.39.23.109/33380 to outside:FW-Virtual-SRV/23
+2017-04-12 05:15:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.39.23.109/33380 to outside:FW-Virtual-SRV/23
+2017-04-12 05:15:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 85.96.105.35/47722 to outside:FW-Virtual-SRV/23
+2017-04-12 05:16:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 85.175.243.51/2286 to outside:FW-Virtual-SRV/23
+2017-04-12 05:22:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 143.202.50.79/61452 to outside:FW-Virtual-SRV/23
+2017-04-12 05:23:16	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 85.105.223.39/34724 to outside:FW-Virtual-SRV/23
+2017-04-12 05:23:19	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/44528 to outside:173.194.79.26/25; matched Class 4: header line length gt 998 
+2017-04-12 05:23:19	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/44528 to outside:173.194.79.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 05:23:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.233.40.235/55644 to outside:FW-Virtual-SRV/23
+2017-04-12 05:23:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 202.131.117.153/55347 to outside:FW-Virtual-SRV/23
+2017-04-12 05:24:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 120.32.7.77/29355 to outside:FW-Virtual-SRV/23
+2017-04-12 05:29:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.207.37.103/30588 to outside:FW-Virtual-SRV/22
+2017-04-12 05:30:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.12.5.137/40481 to outside:FW-Virtual-SRV/23
+2017-04-12 05:32:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.30.182.210/45459 to outside:FW-Virtual-SRV/23
+2017-04-12 05:33:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.162.108.26/40498 to outside:FW-Virtual-SRV/23
+2017-04-12 05:34:26	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 1.186.246.133/3782 to outside:FW-Virtual-SRV/23
+2017-04-12 05:34:29	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.18.242.130/29013 to outside:FW-Virtual-SRV/23
+2017-04-12 05:36:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 218.4.213.234/46757 to outside:FW-Virtual-SRV/23
+2017-04-12 05:36:32	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 211.141.92.150/35344 to outside:FW-Virtual-SRV/23
+2017-04-12 05:38:19	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/44669 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 05:38:19	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/44669 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 05:39:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.254.13.245/32813 to outside:FW-Virtual-SRV/22
+2017-04-12 05:39:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.59.210.118/23056 to outside:FW-Virtual-SRV/23
+2017-04-12 05:40:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 200.116.99.70/18105 to outside:FW-Virtual-SRV/23
+2017-04-12 05:40:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 218.21.32.22/61545 to outside:FW-Virtual-SRV/23
+2017-04-12 05:44:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 221.124.77.152/45729 to outside:FW-Virtual-SRV/23
+2017-04-12 05:46:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 24.185.204.30/64551 to outside:FW-Virtual-SRV/22
+2017-04-12 05:46:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.87.48.43/39477 to outside:FW-Virtual-SRV/23
+2017-04-12 05:47:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 78.188.99.226/21138 to outside:FW-Virtual-SRV/23
+2017-04-12 05:48:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 14.162.54.42/62502 to outside:FW-Virtual-SRV/23
+2017-04-12 05:48:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 121.97.213.44/63887 to outside:FW-Virtual-SRV/23
+2017-04-12 05:48:54	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:45.56.91.118 dst inside:FW-Virtual-SRV (type 3, code 10) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 05:48:57	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:45.56.91.118 dst inside:FW-Virtual-SRV (type 3, code 10) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 05:49:04	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:45.56.91.118 dst inside:FW-Virtual-SRV (type 3, code 10) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 05:53:20	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/44791 to outside:74.125.128.27/25; matched Class 4: header line length gt 998 
+2017-04-12 05:53:20	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/44791 to outside:74.125.128.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 05:56:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 37.79.77.213/32582 to outside:FW-Virtual-SRV/23
+2017-04-12 05:57:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 111.80.56.201/48523 to outside:FW-Virtual-SRV/23
+2017-04-12 05:59:25	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 123.0.41.58/34073 to outside:FW-Virtual-SRV/23
+2017-04-12 05:59:25	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 123.0.41.58/34073 to outside:FW-Virtual-SRV/23
+2017-04-12 06:06:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 210.195.230.209/24891 to outside:FW-Virtual-SRV/23
+2017-04-12 06:06:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 113.212.173.23/19638 to outside:FW-Virtual-SRV/23
+2017-04-12 06:07:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 85.89.167.195/60740 to outside:FW-Virtual-SRV/23
+2017-04-12 06:08:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.19.168.16/55915 to outside:FW-Virtual-SRV/23
+2017-04-12 06:08:21	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/44977 to outside:74.125.128.26/25; matched Class 4: header line length gt 998 
+2017-04-12 06:08:21	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/44977 to outside:74.125.128.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 06:10:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 86.111.169.30/36103 to outside:FW-Virtual-SRV/23
+2017-04-12 06:12:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 116.31.116.4/9090 to outside:FW-Virtual-SRV/22
+2017-04-12 06:17:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 61.50.107.98/9342 to outside:FW-Virtual-SRV/23
+2017-04-12 06:20:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 93.117.151.24/20554 to outside:FW-Virtual-SRV/23
+2017-04-12 06:23:27	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/45119 to outside:74.125.128.27/25; matched Class 4: header line length gt 998 
+2017-04-12 06:23:27	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/45119 to outside:74.125.128.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 06:23:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 71.12.167.99/57676 to outside:FW-Virtual-SRV/23
+2017-04-12 06:25:09	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:09	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:09	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:11	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:11	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:11	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:14	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:14	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:14	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:16	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:16	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:16	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/51909 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 06:25:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 218.93.253.90/23767 to outside:FW-Virtual-SRV/23
+2017-04-12 06:27:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 124.164.158.88/24065 to outside:FW-Virtual-SRV/23
+2017-04-12 06:27:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.172.42.128/36878 to outside:FW-Virtual-SRV/23
+2017-04-12 06:29:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 111.202.93.14/33178 to outside:FW-Virtual-SRV/22
+2017-04-12 06:31:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.72.160.39/41780 to outside:FW-Virtual-SRV/23
+2017-04-12 06:31:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 89.32.220.171/52286 to outside:FW-Virtual-SRV/23
+2017-04-12 06:34:01	Local4.Notice	192.168.1.112	%ASA-5-713075: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, Overriding Initiator's IPSec rekeying duration from 2147483 to 28800 seconds
+2017-04-12 06:34:01	Local4.Notice	192.168.1.112	%ASA-5-713049: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, Security negotiation complete for User (sp01)  Responder, Inbound SPI = 0xe2086321, Outbound SPI = 0x99e22c09
+2017-04-12 06:34:01	Local4.Notice	192.168.1.112	%ASA-5-713120: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, PHASE 2 COMPLETED (msgid=fdeb3b5f)
+2017-04-12 06:36:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.227.252.32/47601 to outside:FW-Virtual-SRV/22
+2017-04-12 06:38:27	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/45247 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 06:38:27	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/45247 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 06:40:41	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.20.73.211/35121 to outside:FW-Virtual-SRV/22
+2017-04-12 06:41:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 71.6.135.131/36877 to outside:FW-Virtual-SRV/23
+2017-04-12 06:41:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 119.181.25.196/62880 to outside:FW-Virtual-SRV/23
+2017-04-12 06:42:05	Local4.Notice	192.168.1.112	%ASA-5-713130: Group = chvtunnel, Username = im01, IP = 5.2.184.49, Received unsupported transaction mode attribute: 5
+2017-04-12 06:42:05	Local4.Notice	192.168.1.112	%ASA-5-737003: IPAA: DHCP configured, no viable servers found for tunnel-group 'chvtunnel'
+2017-04-12 06:42:05	Local4.Notice	192.168.1.112	%ASA-5-713119: Group = chvtunnel, Username = im01, IP = 5.2.184.49, PHASE 1 COMPLETED
+2017-04-12 06:42:05	Local4.Notice	192.168.1.112	%ASA-5-713075: Group = chvtunnel, Username = im01, IP = 5.2.184.49, Overriding Initiator's IPSec rekeying duration from 2147483 to 28800 seconds
+2017-04-12 06:42:05	Local4.Notice	192.168.1.112	%ASA-5-713049: Group = chvtunnel, Username = im01, IP = 5.2.184.49, Security negotiation complete for User (im01)  Responder, Inbound SPI = 0x92978eb8, Outbound SPI = 0x30599a76
+2017-04-12 06:42:05	Local4.Notice	192.168.1.112	%ASA-5-713120: Group = chvtunnel, Username = im01, IP = 5.2.184.49, PHASE 2 COMPLETED (msgid=d8abb05c)
+2017-04-12 06:42:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.252.6.129/20098 to outside:FW-Virtual-SRV/23
+2017-04-12 06:44:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 223.207.60.175/1953 to outside:FW-Virtual-SRV/23
+2017-04-12 06:46:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.158.78/11668 to outside:FW-Virtual-SRV/23
+2017-04-12 06:47:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 60.240.180.84/11950 to outside:FW-Virtual-SRV/23
+2017-04-12 06:49:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 60.242.80.158/44890 to outside:FW-Virtual-SRV/23
+2017-04-12 06:52:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 90.150.174.78/11081 to outside:FW-Virtual-SRV/23
+2017-04-12 06:53:28	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/45381 to outside:108.177.96.27/25; matched Class 4: header line length gt 998 
+2017-04-12 06:53:28	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/45381 to outside:108.177.96.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 06:56:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.244.16.220/9450 to outside:FW-Virtual-SRV/23
+2017-04-12 06:57:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.34.39.227/3775 to outside:FW-Virtual-SRV/23
+2017-04-12 07:00:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.123.191.12/58205 to outside:FW-Virtual-SRV/23
+2017-04-12 07:00:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.244.96/58985 to outside:FW-Virtual-SRV/23
+2017-04-12 07:03:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.37.176.174/64656 to outside:FW-Virtual-SRV/23
+2017-04-12 07:03:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 37.109.54.31/37295 to outside:FW-Virtual-SRV/23
+2017-04-12 07:05:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 87.0.94.3/51838 to outside:FW-Virtual-SRV/23
+2017-04-12 07:05:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 88.250.62.57/16708 to outside:FW-Virtual-SRV/23
+2017-04-12 07:07:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 60.11.50.250/3577 to outside:FW-Virtual-SRV/23
+2017-04-12 07:08:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.244.56/24249 to outside:FW-Virtual-SRV/23
+2017-04-12 07:08:29	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/45520 to outside:74.125.128.26/25; matched Class 4: header line length gt 998 
+2017-04-12 07:08:29	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/45520 to outside:74.125.128.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 07:09:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 195.154.102.193/62997 to outside:FW-Virtual-SRV/22
+2017-04-12 07:12:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 119.42.124.77/56404 to outside:FW-Virtual-SRV/23
+2017-04-12 07:13:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 218.56.148.210/3005 to outside:FW-Virtual-SRV/23
+2017-04-12 07:15:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 89.67.200.165/63849 to outside:FW-Virtual-SRV/23
+2017-04-12 07:18:48	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 219.85.58.99/34857 to outside:FW-Virtual-SRV/23
+2017-04-12 07:20:00	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:8.8.8.8 dst inside:FW-Virtual-SRV (type 0, code 0) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 07:21:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.82.84.251/11898 to outside:FW-Virtual-SRV/23
+2017-04-12 07:23:29	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/45683 to outside:74.125.128.27/25; matched Class 4: header line length gt 998 
+2017-04-12 07:23:29	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/45683 to outside:74.125.128.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 07:24:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.182.184.228/8876 to outside:FW-Virtual-SRV/23
+2017-04-12 07:25:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.32.124.28/60399 to outside:FW-Virtual-SRV/23
+2017-04-12 07:32:26	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.178.134.49/41773 to outside:FW-Virtual-SRV/22
+2017-04-12 07:34:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 83.7.126.143/35899 to outside:FW-Virtual-SRV/23
+2017-04-12 07:37:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 83.238.163.185/53727 to outside:FW-Virtual-SRV/23
+2017-04-12 07:38:30	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/45876 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 07:38:30	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/45876 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 07:39:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.207.37.103/30588 to outside:FW-Virtual-SRV/22
+2017-04-12 07:40:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 58.186.165.156/13446 to outside:FW-Virtual-SRV/23
+2017-04-12 07:40:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.133.153.204/14868 to outside:FW-Virtual-SRV/22
+2017-04-12 07:40:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.16.48.220/29653 to outside:FW-Virtual-SRV/22
+2017-04-12 07:40:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.61.38.107/62749 to outside:FW-Virtual-SRV/22
+2017-04-12 07:42:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.82.23.141/56489 to outside:FW-Virtual-SRV/22
+2017-04-12 07:44:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 116.106.199.77/65376 to outside:FW-Virtual-SRV/23
+2017-04-12 07:44:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 101.99.43.2/15943 to outside:FW-Virtual-SRV/23
+2017-04-12 07:49:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 189.41.217.143/3775 to outside:FW-Virtual-SRV/23
+2017-04-12 07:51:10	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.12.194.46/2356 to outside:FW-Virtual-SRV/23
+2017-04-12 07:52:21	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:8.8.8.8 dst inside:FW-Virtual-SRV (type 0, code 0) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 07:53:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 41.38.158.3/23628 to outside:FW-Virtual-SRV/23
+2017-04-12 07:53:31	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/46043 to outside:173.194.79.26/25; matched Class 4: header line length gt 998 
+2017-04-12 07:53:31	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/46043 to outside:173.194.79.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 07:55:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 39.184.32.189/17419 to outside:FW-Virtual-SRV/22
+2017-04-12 07:56:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 41.248.115.57/11454 to outside:FW-Virtual-SRV/23
+2017-04-12 07:57:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.176.144.147/58307 to outside:FW-Virtual-SRV/22
+2017-04-12 07:57:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.136.110.169/1274 to outside:FW-Virtual-SRV/23
+2017-04-12 07:57:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.16.35.88/20765 to outside:FW-Virtual-SRV/23
+2017-04-12 08:00:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.33.71.125/8893 to outside:FW-Virtual-SRV/23
+2017-04-12 08:01:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.173.202.122/20168 to outside:FW-Virtual-SRV/22
+2017-04-12 08:04:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 120.4.117.0/38480 to outside:FW-Virtual-SRV/23
+2017-04-12 08:06:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 120.62.172.186/24314 to outside:FW-Virtual-SRV/23
+2017-04-12 08:07:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 88.249.13.16/63109 to outside:FW-Virtual-SRV/23
+2017-04-12 08:08:31	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/46336 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 08:08:31	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/46336 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 08:09:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.82.250.2/32499 to outside:FW-Virtual-SRV/22
+2017-04-12 08:10:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 223.204.122.161/29659 to outside:FW-Virtual-SRV/23
+2017-04-12 08:10:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.77.141.70/24939 to outside:FW-Virtual-SRV/23
+2017-04-12 08:11:13	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.43.116.139/62704 to outside:FW-Virtual-SRV/23
+2017-04-12 08:11:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.193.56.46/60228 to outside:FW-Virtual-SRV/23
+2017-04-12 08:14:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.38.136.91/58894 to outside:FW-Virtual-SRV/23
+2017-04-12 08:14:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.38.136.91/58894 to outside:FW-Virtual-SRV/23
+2017-04-12 08:14:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.38.136.91/58894 to outside:FW-Virtual-SRV/23
+2017-04-12 08:17:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 71.6.142.85/60286 to outside:FW-Virtual-SRV/23
+2017-04-12 08:18:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.221.163.218/35302 to outside:FW-Virtual-SRV/23
+2017-04-12 08:18:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 193.201.224.240/53693 to outside:FW-Virtual-SRV/22
+2017-04-12 08:18:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 193.201.224.240/53693 to outside:FW-Virtual-SRV/22
+2017-04-12 08:19:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 61.183.117.250/65128 to outside:FW-Virtual-SRV/22
+2017-04-12 08:20:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.127.98.239/54681 to outside:FW-Virtual-SRV/23
+2017-04-12 08:22:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.210.217.172/50411 to outside:FW-Virtual-SRV/22
+2017-04-12 08:22:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.210.217.172/50411 to outside:FW-Virtual-SRV/22
+2017-04-12 08:22:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.210.217.172/50411 to outside:FW-Virtual-SRV/22
+2017-04-12 08:23:22	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:8.8.8.8 dst inside:FW-Virtual-SRV (type 0, code 0) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 08:23:32	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/46590 to outside:108.177.96.27/25; matched Class 4: header line length gt 998 
+2017-04-12 08:23:32	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/46590 to outside:108.177.96.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 08:23:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 120.146.189.222/20967 to outside:FW-Virtual-SRV/23
+2017-04-12 08:23:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.179.172.159/43183 to outside:FW-Virtual-SRV/23
+2017-04-12 08:24:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 141.212.122.225/60197 to outside:FW-Virtual-SRV/22
+2017-04-12 08:24:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 141.212.122.224/33787 to outside:FW-Virtual-SRV/22
+2017-04-12 08:26:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.117.238.40/6000 to outside:FW-Virtual-SRV/23
+2017-04-12 08:26:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.207.240.147/12296 to outside:FW-Virtual-SRV/23
+2017-04-12 08:31:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 211.246.193.35/8129 to outside:FW-Virtual-SRV/23
+2017-04-12 08:33:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 123.160.238.20/45628 to outside:FW-Virtual-SRV/23
+2017-04-12 08:35:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 183.144.63.214/9633 to outside:FW-Virtual-SRV/23
+2017-04-12 08:38:33	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/46763 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 08:38:33	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/46763 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 08:38:33	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.24 dst outside:8.8.8.8 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.8.8/53 dst 192.168.1.24/51785.
+2017-04-12 08:38:33	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.24 dst outside:8.8.4.4 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.4.4/53 dst 192.168.1.24/46918.
+2017-04-12 08:39:34	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.58 dst outside:8.8.4.4 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.4.4/53 dst 192.168.1.58/33406.
+2017-04-12 08:39:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.87.216.173/50923 to outside:FW-Virtual-SRV/23
+2017-04-12 08:46:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.115.109.177/32737 to outside:FW-Virtual-SRV/23
+2017-04-12 08:47:06	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.24 dst outside:213.94.78.236 (type 3, code 1) on inside interface.  Original IP payload: tcp src 213.94.78.236/443 dst 192.168.1.24/38703.
+2017-04-12 08:47:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 212.156.219.141/41943 to outside:FW-Virtual-SRV/23
+2017-04-12 08:48:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/25711 to outside:FW-Virtual-SRV/22
+2017-04-12 08:48:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/25711 to outside:FW-Virtual-SRV/22
+2017-04-12 08:48:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.73.94/25711 to outside:FW-Virtual-SRV/22
+2017-04-12 08:50:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 86.34.240.217/41887 to outside:FW-Virtual-SRV/23
+2017-04-12 08:50:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.208.227.20/9927 to outside:FW-Virtual-SRV/23
+2017-04-12 08:53:33	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/46925 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 08:53:33	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/46925 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 08:54:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.67.24.133/27281 to outside:FW-Virtual-SRV/23
+2017-04-12 08:55:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.47.221.28/18380 to outside:FW-Virtual-SRV/22
+2017-04-12 09:01:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 23.121.18.79/48443 to outside:FW-Virtual-SRV/23
+2017-04-12 09:02:25	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:26	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:26	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:26	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:28	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:28	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:28	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:29	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:29	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:29	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:30	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:30	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:02:30	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny udp src outside:17.173.254.223/16387 dst inside:FW-Virtual-SRV/2133 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:03:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 80.82.70.26/49601 to outside:FW-Virtual-SRV/23
+2017-04-12 09:03:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.136.110.195/35037 to outside:FW-Virtual-SRV/23
+2017-04-12 09:03:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 94.51.135.190/4969 to outside:FW-Virtual-SRV/23
+2017-04-12 09:06:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 60.175.78.26/28667 to outside:FW-Virtual-SRV/23
+2017-04-12 09:08:34	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/47102 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 09:08:34	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/47102 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 09:09:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.35.54.91/59656 to outside:FW-Virtual-SRV/23
+2017-04-12 09:10:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 210.61.209.76/38642 to outside:FW-Virtual-SRV/23
+2017-04-12 09:12:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.174.38.233/62146 to outside:FW-Virtual-SRV/23
+2017-04-12 09:15:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.245.82.6/47117 to outside:FW-Virtual-SRV/22
+2017-04-12 09:15:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 222.69.185.42/11929 to outside:FW-Virtual-SRV/23
+2017-04-12 09:20:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 195.3.144.213/48340 to outside:FW-Virtual-SRV/22
+2017-04-12 09:20:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 195.3.144.213/48340 to outside:FW-Virtual-SRV/22
+2017-04-12 09:20:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 195.3.144.213/48340 to outside:FW-Virtual-SRV/22
+2017-04-12 09:21:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.39.146.87/28018 to outside:FW-Virtual-SRV/23
+2017-04-12 09:21:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.37.176.174/64656 to outside:FW-Virtual-SRV/23
+2017-04-12 09:23:58	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/47268 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 09:23:58	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/47268 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 09:25:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 116.226.2.50/7105 to outside:FW-Virtual-SRV/23
+2017-04-12 09:26:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 222.161.200.123/58275 to outside:FW-Virtual-SRV/22
+2017-04-12 09:27:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 90.164.150.117/17318 to outside:FW-Virtual-SRV/23
+2017-04-12 09:27:41	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.72.207.82/44919 to outside:FW-Virtual-SRV/23
+2017-04-12 09:29:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 182.100.67.118/53279 to outside:FW-Virtual-SRV/22
+2017-04-12 09:29:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 83.233.49.11/2058 to outside:FW-Virtual-SRV/23
+2017-04-12 09:30:02	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.58 dst outside:8.8.8.8 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.8.8/53 dst 192.168.1.58/49504.
+2017-04-12 09:32:25	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:8.8.8.8 dst inside:FW-Virtual-SRV (type 0, code 0) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:35:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 116.226.2.50/7105 to outside:FW-Virtual-SRV/23
+2017-04-12 09:36:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.33.51.115/14367 to outside:FW-Virtual-SRV/23
+2017-04-12 09:37:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 170.150.77.234/32888 to outside:FW-Virtual-SRV/23
+2017-04-12 09:38:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 176.41.4.172/47128 to outside:FW-Virtual-SRV/23
+2017-04-12 09:38:58	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/47486 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 09:38:58	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/47486 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 09:39:30	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.58 dst outside:8.8.4.4 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.4.4/53 dst 192.168.1.58/49864.
+2017-04-12 09:40:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.221.125.35/12559 to outside:FW-Virtual-SRV/23
+2017-04-12 09:41:23	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:23	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:23	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:24	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:25	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:26	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:27	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:27	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:27	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:28	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:29	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:41:30	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:43:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 36.233.35.178/52128 to outside:FW-Virtual-SRV/23
+2017-04-12 09:43:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 87.116.134.14/51924 to outside:FW-Virtual-SRV/23
+2017-04-12 09:45:26	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:192.186.2.10 dst inside:FW-Virtual-SRV (type 3, code 10) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:48:26	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:8.8.8.8 dst inside:FW-Virtual-SRV (type 0, code 0) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 09:49:48	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.136.244.68/21528 to outside:FW-Virtual-SRV/23
+2017-04-12 09:52:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 176.8.141.179/13233 to outside:FW-Virtual-SRV/23
+2017-04-12 09:52:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.134.168.199/5919 to outside:FW-Virtual-SRV/23
+2017-04-12 09:52:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.136.110.183/17348 to outside:FW-Virtual-SRV/23
+2017-04-12 09:53:59	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/47652 to outside:173.194.79.26/25; matched Class 4: header line length gt 998 
+2017-04-12 09:53:59	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/47652 to outside:173.194.79.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 09:59:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 112.228.9.203/37053 to outside:FW-Virtual-SRV/23
+2017-04-12 10:00:41	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 219.76.177.49/54329 to outside:FW-Virtual-SRV/23
+2017-04-12 10:00:57	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 117.213.119.143/40940 to outside:FW-Virtual-SRV/22
+2017-04-12 10:01:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 171.235.157.98/20897 to outside:FW-Virtual-SRV/23
+2017-04-12 10:03:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.226.212.138/48580 to outside:FW-Virtual-SRV/23
+2017-04-12 10:04:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 151.235.114.238/56105 to outside:FW-Virtual-SRV/23
+2017-04-12 10:05:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 109.75.44.19/38725 to outside:FW-Virtual-SRV/23
+2017-04-12 10:05:25	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 182.180.103.186/55593 to outside:FW-Virtual-SRV/23
+2017-04-12 10:07:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 41.41.108.70/45788 to outside:FW-Virtual-SRV/23
+2017-04-12 10:07:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 27.3.207.215/54944 to outside:FW-Virtual-SRV/23
+2017-04-12 10:09:00	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/47873 to outside:108.177.96.27/25; matched Class 4: header line length gt 998 
+2017-04-12 10:09:00	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/47873 to outside:108.177.96.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 10:12:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.68.100.214/44306 to outside:FW-Virtual-SRV/23
+2017-04-12 10:14:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 218.56.148.210/63723 to outside:FW-Virtual-SRV/23
+2017-04-12 10:14:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 194.228.130.15/12973 to outside:FW-Virtual-SRV/23
+2017-04-12 10:16:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 218.148.207.9/21868 to outside:FW-Virtual-SRV/23
+2017-04-12 10:18:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 89.165.19.156/20765 to outside:FW-Virtual-SRV/23
+2017-04-12 10:20:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.34.148.91/18879 to outside:FW-Virtual-SRV/23
+2017-04-12 10:20:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.163.99.138/12196 to outside:FW-Virtual-SRV/23
+2017-04-12 10:24:00	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/48040 to outside:108.177.96.26/25; matched Class 4: header line length gt 998 
+2017-04-12 10:24:00	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/48040 to outside:108.177.96.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 10:30:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 58.218.199.201/9090 to outside:FW-Virtual-SRV/22
+2017-04-12 10:32:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.159.80.134/37487 to outside:FW-Virtual-SRV/23
+2017-04-12 10:35:21	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.211.110 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:35:21	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.211.110 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:35:22	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.211.110 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:35:22	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.211.110 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:35:24	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.211.110 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:36:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.63.254.171/21396 to outside:FW-Virtual-SRV/23
+2017-04-12 10:36:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 151.32.205.6/35692 to outside:FW-Virtual-SRV/23
+2017-04-12 10:37:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.152.62.233/3456 to outside:FW-Virtual-SRV/22
+2017-04-12 10:39:01	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/48217 to outside:173.194.79.26/25; matched Class 4: header line length gt 998 
+2017-04-12 10:39:01	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/48217 to outside:173.194.79.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 10:40:29	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 80.183.210.8/43814 to outside:FW-Virtual-SRV/23
+2017-04-12 10:41:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.222.243.125/31004 to outside:FW-Virtual-SRV/23
+2017-04-12 10:44:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.17.3.3/28673 to outside:FW-Virtual-SRV/23
+2017-04-12 10:47:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 82.78.247.240/23824 to outside:FW-Virtual-SRV/23
+2017-04-12 10:47:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.196.219.195/5106 to outside:FW-Virtual-SRV/22
+2017-04-12 10:50:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.116.202.228/45028 to outside:FW-Virtual-SRV/23
+2017-04-12 10:50:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.116.202.228/45028 to outside:FW-Virtual-SRV/23
+2017-04-12 10:50:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.116.202.228/45028 to outside:FW-Virtual-SRV/23
+2017-04-12 10:53:32	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 89.120.180.98/6486 to outside:FW-Virtual-SRV/23
+2017-04-12 10:54:01	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/48392 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 10:54:01	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/48392 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 10:55:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.28.12.144/20671 to outside:FW-Virtual-SRV/23
+2017-04-12 10:56:18	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:18	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:18	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:18	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:18	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.209.68 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:19	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.209.68 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:19	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:19	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.209.68 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:19	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.209.68 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:19	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:20	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.209.68 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:21	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:172.217.17.142 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:56:21	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:216.58.209.68 dst inside:FW-Virtual-SRV (type 11, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 10:59:16	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 116.15.77.206/12180 to outside:FW-Virtual-SRV/23
+2017-04-12 11:00:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 197.148.14.159/18023 to outside:FW-Virtual-SRV/23
+2017-04-12 11:01:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 1.55.24.14/57951 to outside:FW-Virtual-SRV/23
+2017-04-12 11:02:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 119.119.56.161/34369 to outside:FW-Virtual-SRV/23
+2017-04-12 11:02:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 105.101.102.159/43852 to outside:FW-Virtual-SRV/22
+2017-04-12 11:09:02	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/48569 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 11:09:02	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/48569 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 11:09:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.75.70.3/49012 to outside:FW-Virtual-SRV/23
+2017-04-12 11:09:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.197.232.107/50231 to outside:FW-Virtual-SRV/22
+2017-04-12 11:09:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.197.232.107/50231 to outside:FW-Virtual-SRV/22
+2017-04-12 11:09:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.197.232.107/50231 to outside:FW-Virtual-SRV/22
+2017-04-12 11:09:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.197.232.107/50231 to outside:FW-Virtual-SRV/22
+2017-04-12 11:09:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.41.157.252/12699 to outside:FW-Virtual-SRV/23
+2017-04-12 11:13:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.161.127.135/54806 to outside:FW-Virtual-SRV/23
+2017-04-12 11:17:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 58.68.16.74/53392 to outside:FW-Virtual-SRV/23
+2017-04-12 11:17:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 2.180.244.38/54272 to outside:FW-Virtual-SRV/23
+2017-04-12 11:18:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.133.31.68/36880 to outside:FW-Virtual-SRV/23
+2017-04-12 11:18:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.32.200.209/15740 to outside:FW-Virtual-SRV/23
+2017-04-12 11:19:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 27.224.253.230/4009 to outside:FW-Virtual-SRV/22
+2017-04-12 11:19:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.19.138.118/36951 to outside:FW-Virtual-SRV/23
+2017-04-12 11:24:02	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/48737 to outside:108.177.96.26/25; matched Class 4: header line length gt 998 
+2017-04-12 11:24:02	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/48737 to outside:108.177.96.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 11:24:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 218.67.77.37/55991 to outside:FW-Virtual-SRV/23
+2017-04-12 11:27:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 64.66.20.56/56882 to outside:FW-Virtual-SRV/23
+2017-04-12 11:29:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.53.113.195/24709 to outside:FW-Virtual-SRV/23
+2017-04-12 11:34:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 123.164.178.134/18711 to outside:FW-Virtual-SRV/23
+2017-04-12 11:39:03	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/48937 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 11:39:03	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/48937 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 11:43:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.46.126.60/22327 to outside:FW-Virtual-SRV/23
+2017-04-12 11:44:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 14.169.13.213/17790 to outside:FW-Virtual-SRV/23
+2017-04-12 11:46:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 194.14.48.79/18405 to outside:FW-Virtual-SRV/23
+2017-04-12 11:54:03	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/49123 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 11:54:03	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/49123 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 11:55:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.241.209.243/8114 to outside:FW-Virtual-SRV/23
+2017-04-12 11:57:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 182.180.83.58/7235 to outside:FW-Virtual-SRV/23
+2017-04-12 11:58:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 116.226.2.50/7105 to outside:FW-Virtual-SRV/23
+2017-04-12 12:01:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.97.198.71/1905 to outside:FW-Virtual-SRV/22
+2017-04-12 12:02:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 189.101.254.81/20219 to outside:FW-Virtual-SRV/23
+2017-04-12 12:02:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 108.30.56.84/25093 to outside:FW-Virtual-SRV/23
+2017-04-12 12:04:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 116.226.2.50/7105 to outside:FW-Virtual-SRV/23
+2017-04-12 12:05:25	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.76.15.199/39532 to outside:FW-Virtual-SRV/23
+2017-04-12 12:05:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.118.52.113/1161 to outside:FW-Virtual-SRV/22
+2017-04-12 12:05:32	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.118.52.113/1161 to outside:FW-Virtual-SRV/22
+2017-04-12 12:05:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.118.52.113/1161 to outside:FW-Virtual-SRV/22
+2017-04-12 12:09:04	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/49272 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 12:09:04	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/49272 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 12:12:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.183.165.248/63716 to outside:FW-Virtual-SRV/23
+2017-04-12 12:14:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.215.243.191/1995 to outside:FW-Virtual-SRV/23
+2017-04-12 12:15:13	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 196.200.173.157/24565 to outside:FW-Virtual-SRV/22
+2017-04-12 12:15:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 196.200.173.157/24565 to outside:FW-Virtual-SRV/22
+2017-04-12 12:15:16	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 196.200.173.157/24565 to outside:FW-Virtual-SRV/22
+2017-04-12 12:15:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 196.200.173.157/24565 to outside:FW-Virtual-SRV/22
+2017-04-12 12:16:16	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.165.129/14043 to outside:FW-Virtual-SRV/23
+2017-04-12 12:16:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.254.176.21/8575 to outside:FW-Virtual-SRV/23
+2017-04-12 12:19:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.23.241.215/29617 to outside:FW-Virtual-SRV/22
+2017-04-12 12:19:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.23.241.215/29617 to outside:FW-Virtual-SRV/22
+2017-04-12 12:19:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.23.241.215/29617 to outside:FW-Virtual-SRV/22
+2017-04-12 12:19:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.23.241.215/29617 to outside:FW-Virtual-SRV/22
+2017-04-12 12:20:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.23.241.215/29618 to outside:FW-Virtual-SRV/22
+2017-04-12 12:21:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 196.200.173.157/58997 to outside:FW-Virtual-SRV/22
+2017-04-12 12:21:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 196.200.173.157/58997 to outside:FW-Virtual-SRV/22
+2017-04-12 12:21:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 196.200.173.157/58997 to outside:FW-Virtual-SRV/22
+2017-04-12 12:21:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 196.200.173.157/58997 to outside:FW-Virtual-SRV/22
+2017-04-12 12:22:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 2.176.234.137/31689 to outside:FW-Virtual-SRV/23
+2017-04-12 12:24:04	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/49428 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 12:24:04	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/49428 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 12:24:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 83.208.18.253/52172 to outside:FW-Virtual-SRV/23
+2017-04-12 12:26:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 195.223.225.59/58348 to outside:FW-Virtual-SRV/23
+2017-04-12 12:30:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 183.83.53.108/47091 to outside:FW-Virtual-SRV/23
+2017-04-12 12:31:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.132.93.97/3345 to outside:FW-Virtual-SRV/23
+2017-04-12 12:31:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 185.93.42.63/64274 to outside:FW-Virtual-SRV/23
+2017-04-12 12:36:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 72.2.247.51/28507 to outside:FW-Virtual-SRV/23
+2017-04-12 12:38:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 81.15.165.78/58355 to outside:FW-Virtual-SRV/23
+2017-04-12 12:38:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.72.94.198/20581 to outside:FW-Virtual-SRV/23
+2017-04-12 12:39:05	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/49576 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 12:39:05	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/49576 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 12:40:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 78.175.158.62/41907 to outside:FW-Virtual-SRV/23
+2017-04-12 12:40:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 121.97.158.162/65236 to outside:FW-Virtual-SRV/23
+2017-04-12 12:42:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.21.132.77/28031 to outside:FW-Virtual-SRV/22
+2017-04-12 12:43:29	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 150.129.130.138/51639 to outside:FW-Virtual-SRV/23
+2017-04-12 12:44:16	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 1.55.124.214/54341 to outside:FW-Virtual-SRV/23
+2017-04-12 12:44:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.53.144.132/32717 to outside:FW-Virtual-SRV/23
+2017-04-12 12:45:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 183.24.223.241/59347 to outside:FW-Virtual-SRV/23
+2017-04-12 12:48:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 42.7.26.15/9090 to outside:FW-Virtual-SRV/22
+2017-04-12 12:48:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 2.190.37.80/29427 to outside:FW-Virtual-SRV/22
+2017-04-12 12:50:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.134.245.67/14060 to outside:FW-Virtual-SRV/23
+2017-04-12 12:51:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 119.65.255.114/7357 to outside:FW-Virtual-SRV/22
+2017-04-12 12:52:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.27.196.14/35136 to outside:FW-Virtual-SRV/23
+2017-04-12 12:52:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 123.150.108.123/30117 to outside:FW-Virtual-SRV/22
+2017-04-12 12:54:05	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/49758 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 12:54:05	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/49758 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 12:55:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.178.173.216/42173 to outside:FW-Virtual-SRV/22
+2017-04-12 12:56:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 66.67.38.37/24028 to outside:FW-Virtual-SRV/23
+2017-04-12 12:56:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.135.239.163/30566 to outside:FW-Virtual-SRV/23
+2017-04-12 12:58:00	Local4.Notice	192.168.1.112	%ASA-5-713075: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, Overriding Initiator's IPSec rekeying duration from 2147483 to 28800 seconds
+2017-04-12 12:58:00	Local4.Notice	192.168.1.112	%ASA-5-713049: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, Security negotiation complete for User (sp01)  Responder, Inbound SPI = 0x39534540, Outbound SPI = 0x583c9f79
+2017-04-12 12:58:00	Local4.Notice	192.168.1.112	%ASA-5-713120: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, PHASE 2 COMPLETED (msgid=3abe529a)
+2017-04-12 12:59:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 219.128.33.97/42475 to outside:FW-Virtual-SRV/22
+2017-04-12 12:59:48	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 124.91.160.157/42914 to outside:FW-Virtual-SRV/23
+2017-04-12 13:03:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 183.214.141.100/37638 to outside:FW-Virtual-SRV/22
+2017-04-12 13:05:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 117.202.8.99/56515 to outside:FW-Virtual-SRV/23
+2017-04-12 13:05:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 200.223.89.53/11870 to outside:FW-Virtual-SRV/23
+2017-04-12 13:05:28	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from outside:185.189.88.10/59039 to inside:Server_CHV1/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 13:07:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.209.190.129/55027 to outside:FW-Virtual-SRV/23
+2017-04-12 13:09:06	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/49944 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 13:09:06	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/49944 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 13:09:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.168.69.224/58764 to outside:FW-Virtual-SRV/23
+2017-04-12 13:10:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 27.130.239.228/62435 to outside:FW-Virtual-SRV/23
+2017-04-12 13:12:00	Local4.Notice	192.168.1.112	%ASA-5-713075: Group = chvtunnel, Username = im01, IP = 5.2.184.49, Overriding Initiator's IPSec rekeying duration from 2147483 to 28800 seconds
+2017-04-12 13:12:00	Local4.Notice	192.168.1.112	%ASA-5-713049: Group = chvtunnel, Username = im01, IP = 5.2.184.49, Security negotiation complete for User (im01)  Responder, Inbound SPI = 0x600318d8, Outbound SPI = 0x61a71a98
+2017-04-12 13:12:00	Local4.Notice	192.168.1.112	%ASA-5-713120: Group = chvtunnel, Username = im01, IP = 5.2.184.49, PHASE 2 COMPLETED (msgid=39077a18)
+2017-04-12 13:14:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 195.150.184.197/22197 to outside:FW-Virtual-SRV/23
+2017-04-12 13:18:16	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 1.48.196.36/9317 to outside:FW-Virtual-SRV/23
+2017-04-12 13:18:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.19.214.209/7522 to outside:FW-Virtual-SRV/23
+2017-04-12 13:21:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.207.37.71/40571 to outside:FW-Virtual-SRV/22
+2017-04-12 13:24:06	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/50097 to outside:74.125.128.26/25; matched Class 4: header line length gt 998 
+2017-04-12 13:24:06	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/50097 to outside:74.125.128.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 13:27:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 111.118.145.131/16324 to outside:FW-Virtual-SRV/23
+2017-04-12 13:29:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.18.242.130/29013 to outside:FW-Virtual-SRV/23
+2017-04-12 13:31:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.46.82.84/49908 to outside:FW-Virtual-SRV/23
+2017-04-12 13:34:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 111.40.168.90/6784 to outside:FW-Virtual-SRV/22
+2017-04-12 13:37:29	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.185.65.175/14840 to outside:FW-Virtual-SRV/23
+2017-04-12 13:37:41	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.238.193.119/40575 to outside:FW-Virtual-SRV/23
+2017-04-12 13:38:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.163.89.146/31773 to outside:FW-Virtual-SRV/23
+2017-04-12 13:39:06	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/50295 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 13:39:06	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/50295 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 13:43:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 221.3.133.164/59832 to outside:FW-Virtual-SRV/22
+2017-04-12 13:43:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 221.3.133.164/59832 to outside:FW-Virtual-SRV/22
+2017-04-12 13:43:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 221.3.133.164/59832 to outside:FW-Virtual-SRV/22
+2017-04-12 13:46:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 112.86.90.10/44548 to outside:FW-Virtual-SRV/23
+2017-04-12 13:47:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 61.183.117.250/3085 to outside:FW-Virtual-SRV/22
+2017-04-12 13:49:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.47.115.237/23367 to outside:FW-Virtual-SRV/23
+2017-04-12 13:52:24	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:8.8.8.8 dst inside:FW-Virtual-SRV (type 0, code 0) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 13:54:06	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/50493 to outside:74.125.128.26/25; matched Class 4: header line length gt 998 
+2017-04-12 13:54:06	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/50493 to outside:74.125.128.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 13:55:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.211.18.218/62353 to outside:FW-Virtual-SRV/23
+2017-04-12 13:57:48	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.139.162.162/17834 to outside:FW-Virtual-SRV/23
+2017-04-12 13:59:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 182.176.163.201/7087 to outside:FW-Virtual-SRV/23
+2017-04-12 14:03:01	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.58 dst outside:8.8.8.8 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.8.8/53 dst 192.168.1.58/40076.
+2017-04-12 14:03:09	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from outside:93.155.231.249/54539 to inside:Server_CHV1/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 14:03:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 116.226.2.50/7105 to outside:FW-Virtual-SRV/23
+2017-04-12 14:05:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.17.63.41/25413 to outside:FW-Virtual-SRV/23
+2017-04-12 14:08:10	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 93.86.170.40/55755 to outside:FW-Virtual-SRV/23
+2017-04-12 14:08:26	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 75.109.246.83/48637 to outside:FW-Virtual-SRV/23
+2017-04-12 14:09:07	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/50659 to outside:108.177.96.26/25; matched Class 4: header line length gt 998 
+2017-04-12 14:09:07	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/50659 to outside:108.177.96.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 14:09:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.41.150.164/40311 to outside:FW-Virtual-SRV/22
+2017-04-12 14:10:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 189.175.118.27/15944 to outside:FW-Virtual-SRV/23
+2017-04-12 14:10:32	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 211.202.142.70/24074 to outside:FW-Virtual-SRV/23
+2017-04-12 14:10:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.208.247.184/7173 to outside:FW-Virtual-SRV/23
+2017-04-12 14:11:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.175.10.9/2884 to outside:FW-Virtual-SRV/23
+2017-04-12 14:12:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 112.53.235.49/35657 to outside:FW-Virtual-SRV/23
+2017-04-12 14:12:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.240.74.9/49985 to outside:FW-Virtual-SRV/23
+2017-04-12 14:12:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.240.74.9/49985 to outside:FW-Virtual-SRV/23
+2017-04-12 14:15:43	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:70.39.97.245 dst inside:FW-Virtual-SRV (type 3, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 14:15:44	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:70.39.97.245 dst inside:FW-Virtual-SRV (type 3, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 14:15:45	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:70.39.97.245 dst inside:FW-Virtual-SRV (type 3, code 1) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 14:17:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.59.77.74/30073 to outside:FW-Virtual-SRV/22
+2017-04-12 14:18:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 92.23.159.91/36625 to outside:FW-Virtual-SRV/23
+2017-04-12 14:22:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 221.224.163.242/9857 to outside:FW-Virtual-SRV/23
+2017-04-12 14:22:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 60.11.50.246/42608 to outside:FW-Virtual-SRV/23
+2017-04-12 14:22:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.17.247.216/28957 to outside:FW-Virtual-SRV/23
+2017-04-12 14:24:07	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/50851 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 14:24:07	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/50851 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 14:24:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 83.209.247.210/40094 to outside:FW-Virtual-SRV/23
+2017-04-12 14:32:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 126.122.147.72/9551 to outside:FW-Virtual-SRV/23
+2017-04-12 14:33:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 88.249.2.43/19559 to outside:FW-Virtual-SRV/23
+2017-04-12 14:34:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.117.3.11/42178 to outside:FW-Virtual-SRV/23
+2017-04-12 14:37:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 162.243.116.29/16128 to outside:FW-Virtual-SRV/22
+2017-04-12 14:37:40	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.58 dst outside:8.8.8.8 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.8.8/53 dst 192.168.1.58/57261.
+2017-04-12 14:37:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 182.181.67.105/43075 to outside:FW-Virtual-SRV/23
+2017-04-12 14:38:22	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 80.82.70.26/51201 to outside:FW-Virtual-SRV/23
+2017-04-12 14:39:08	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/51013 to outside:74.125.128.27/25; matched Class 4: header line length gt 998 
+2017-04-12 14:39:08	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/51013 to outside:74.125.128.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 14:39:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 36.66.108.79/48171 to outside:FW-Virtual-SRV/23
+2017-04-12 14:41:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.134.55.155/46284 to outside:FW-Virtual-SRV/23
+2017-04-12 14:42:09	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.58 dst outside:8.8.8.8 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.8.8/53 dst 192.168.1.58/50036.
+2017-04-12 14:42:32	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 113.122.43.185/44133 to outside:FW-Virtual-SRV/22
+2017-04-12 14:42:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 83.208.18.253/52172 to outside:FW-Virtual-SRV/23
+2017-04-12 14:45:39	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.58 dst outside:8.8.4.4 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.4.4/53 dst 192.168.1.58/37057.
+2017-04-12 14:47:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 125.208.210.49/55086 to outside:FW-Virtual-SRV/23
+2017-04-12 14:48:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 125.112.205.7/7502 to outside:FW-Virtual-SRV/23
+2017-04-12 14:50:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 173.252.226.27/2905 to outside:FW-Virtual-SRV/23
+2017-04-12 14:50:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 173.252.226.27/2905 to outside:FW-Virtual-SRV/23
+2017-04-12 14:50:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 173.252.226.27/2905 to outside:FW-Virtual-SRV/23
+2017-04-12 14:50:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.58.121.55/60200 to outside:FW-Virtual-SRV/23
+2017-04-12 14:50:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 119.140.151.28/32511 to outside:FW-Virtual-SRV/23
+2017-04-12 14:52:25	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:8.8.8.8 dst inside:FW-Virtual-SRV (type 0, code 0) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 14:54:09	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/51195 to outside:108.177.96.26/25; matched Class 4: header line length gt 998 
+2017-04-12 14:54:09	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/51195 to outside:108.177.96.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 14:55:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.124.40.94/26356 to outside:FW-Virtual-SRV/23
+2017-04-12 14:58:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 218.63.0.240/42913 to outside:FW-Virtual-SRV/22
+2017-04-12 14:59:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 81.218.200.183/30778 to outside:FW-Virtual-SRV/23
+2017-04-12 15:01:19	Local4.Notice	192.168.1.112	%ASA-5-713050: Group = chvtunnel, Username = im01, IP = 5.2.184.49, Connection terminated for peer im01.  Reason: Peer Terminate  Remote Proxy 192.168.1.8, Local Proxy 0.0.0.0
+2017-04-12 15:01:19	Local4.Notice	192.168.1.112	%ASA-5-713259: Group = chvtunnel, Username = im01, IP = 5.2.184.49, Session is being torn down. Reason: User Requested
+2017-04-12 15:01:19	Local4.Warning	192.168.1.112	%ASA-4-113019: Group = chvtunnel, Username = im01, IP = 5.2.184.49, Session disconnected. Session Type: IPsecOverNatT, Duration: 8h:19m:12s, Bytes xmt: 1468496, Bytes rcv: 339750, Reason: User Requested
+2017-04-12 15:01:19	Local4.Notice	192.168.1.112	%ASA-5-713904: IP = 5.2.184.49, Received encrypted packet with no matching SA, dropping
+2017-04-12 15:03:39	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:8.8.8.8 dst inside:FW-Virtual-SRV (type 0, code 0) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 15:04:32	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.104.231.68/60388 to outside:FW-Virtual-SRV/23
+2017-04-12 15:07:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 182.100.67.118/59561 to outside:FW-Virtual-SRV/22
+2017-04-12 15:07:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 134.249.60.155/41809 to outside:FW-Virtual-SRV/23
+2017-04-12 15:07:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 61.144.21.132/39369 to outside:FW-Virtual-SRV/23
+2017-04-12 15:09:09	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/51402 to outside:74.125.128.27/25; matched Class 4: header line length gt 998 
+2017-04-12 15:09:09	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/51402 to outside:74.125.128.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 15:10:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.159.74.185/3113 to outside:FW-Virtual-SRV/23
+2017-04-12 15:11:10	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 171.234.172.215/21922 to outside:FW-Virtual-SRV/23
+2017-04-12 15:11:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 27.106.78.33/3651 to outside:FW-Virtual-SRV/23
+2017-04-12 15:13:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.239.2.178/20186 to outside:FW-Virtual-SRV/23
+2017-04-12 15:15:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.207.126.158/49565 to outside:FW-Virtual-SRV/23
+2017-04-12 15:15:57	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.207.126.158/49565 to outside:FW-Virtual-SRV/23
+2017-04-12 15:20:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.57.149.131/36925 to outside:FW-Virtual-SRV/22
+2017-04-12 15:20:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 173.67.239.219/53973 to outside:FW-Virtual-SRV/23
+2017-04-12 15:22:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.218.146.233/58319 to outside:FW-Virtual-SRV/23
+2017-04-12 15:23:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.59.76.170/32740 to outside:FW-Virtual-SRV/22
+2017-04-12 15:24:10	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/51582 to outside:108.177.96.27/25; matched Class 4: header line length gt 998 
+2017-04-12 15:24:10	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/51582 to outside:108.177.96.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 15:24:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 2.186.156.193/54078 to outside:FW-Virtual-SRV/23
+2017-04-12 15:29:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 94.255.224.2/56439 to outside:FW-Virtual-SRV/22
+2017-04-12 15:30:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 176.35.106.46/35090 to outside:FW-Virtual-SRV/23
+2017-04-12 15:32:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 183.80.74.232/6529 to outside:FW-Virtual-SRV/23
+2017-04-12 15:34:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.44.137.202/10149 to outside:FW-Virtual-SRV/23
+2017-04-12 15:35:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 183.206.20.198/10297 to outside:FW-Virtual-SRV/22
+2017-04-12 15:38:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.199.192.142/51947 to outside:FW-Virtual-SRV/23
+2017-04-12 15:39:10	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/51748 to outside:173.194.79.26/25; matched Class 4: header line length gt 998 
+2017-04-12 15:39:10	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/51748 to outside:173.194.79.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 15:42:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.103.201/56735 to outside:FW-Virtual-SRV/23
+2017-04-12 15:43:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.134.13.165/7811 to outside:FW-Virtual-SRV/23
+2017-04-12 15:46:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.16.40.203/38157 to outside:FW-Virtual-SRV/23
+2017-04-12 15:52:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.17.12.63/30373 to outside:FW-Virtual-SRV/23
+2017-04-12 15:52:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.133.206.148/2192 to outside:FW-Virtual-SRV/23
+2017-04-12 15:52:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 88.244.29.155/61148 to outside:FW-Virtual-SRV/23
+2017-04-12 15:54:11	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/51902 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 15:54:11	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/51902 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 15:56:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 83.10.38.5/56811 to outside:FW-Virtual-SRV/23
+2017-04-12 15:57:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.84.38.221/54913 to outside:FW-Virtual-SRV/22
+2017-04-12 16:00:02	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:8.8.8.8 dst inside:FW-Virtual-SRV (type 0, code 0) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 16:01:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 81.12.92.51/38967 to outside:FW-Virtual-SRV/23
+2017-04-12 16:01:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 89.218.98.134/53274 to outside:FW-Virtual-SRV/23
+2017-04-12 16:02:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.18.253.222/45960 to outside:FW-Virtual-SRV/23
+2017-04-12 16:03:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.182.147.253/50924 to outside:FW-Virtual-SRV/23
+2017-04-12 16:08:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 200.236.241.231/57286 to outside:FW-Virtual-SRV/23
+2017-04-12 16:09:11	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/52068 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 16:09:11	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/52068 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 16:12:29	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 105.225.72.144/61777 to outside:FW-Virtual-SRV/23
+2017-04-12 16:13:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.122.182.47/47011 to outside:FW-Virtual-SRV/23
+2017-04-12 16:13:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.186.198.8/64674 to outside:FW-Virtual-SRV/23
+2017-04-12 16:14:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.163.140.53/63023 to outside:FW-Virtual-SRV/23
+2017-04-12 16:14:22	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.219.193.150/40829 to outside:FW-Virtual-SRV/22
+2017-04-12 16:14:41	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 139.162.88.20/58421 to outside:FW-Virtual-SRV/22
+2017-04-12 16:14:57	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:8.8.8.8 dst inside:FW-Virtual-SRV (type 0, code 0) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 16:15:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 182.33.86.122/13740 to outside:FW-Virtual-SRV/23
+2017-04-12 16:15:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.159.90.103/22132 to outside:FW-Virtual-SRV/23
+2017-04-12 16:18:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 222.36.236.81/17977 to outside:FW-Virtual-SRV/23
+2017-04-12 16:19:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 27.194.67.152/33115 to outside:FW-Virtual-SRV/23
+2017-04-12 16:22:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 62.36.61.91/60452 to outside:FW-Virtual-SRV/23
+2017-04-12 16:24:12	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/52323 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 16:24:12	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/52323 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 16:29:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.194.65.45/46073 to outside:FW-Virtual-SRV/23
+2017-04-12 16:30:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.223.59.20/49304 to outside:FW-Virtual-SRV/23
+2017-04-12 16:31:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.132.254.170/1116 to outside:FW-Virtual-SRV/23
+2017-04-12 16:33:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 108.178.135.126/30187 to outside:FW-Virtual-SRV/23
+2017-04-12 16:34:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.222.187.66/27047 to outside:FW-Virtual-SRV/23
+2017-04-12 16:34:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 14.175.114.231/11386 to outside:FW-Virtual-SRV/23
+2017-04-12 16:35:42	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.58 dst outside:8.8.4.4 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.4.4/53 dst 192.168.1.58/36152.
+2017-04-12 16:38:41	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 124.124.17.237/21866 to outside:FW-Virtual-SRV/23
+2017-04-12 16:39:13	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/52476 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 16:39:13	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/52476 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 16:39:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 222.36.236.81/17977 to outside:FW-Virtual-SRV/23
+2017-04-12 16:39:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 222.36.236.81/17977 to outside:FW-Virtual-SRV/23
+2017-04-12 16:40:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.135.227.3/6270 to outside:FW-Virtual-SRV/23
+2017-04-12 16:42:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 90.151.107.199/50663 to outside:FW-Virtual-SRV/23
+2017-04-12 16:44:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 117.205.182.246/60807 to outside:FW-Virtual-SRV/23
+2017-04-12 16:44:48	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 222.36.236.81/17977 to outside:FW-Virtual-SRV/23
+2017-04-12 16:45:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 41.38.69.178/47635 to outside:FW-Virtual-SRV/23
+2017-04-12 16:54:13	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/52619 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 16:54:13	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/52619 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 16:56:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 60.19.70.55/54112 to outside:FW-Virtual-SRV/23
+2017-04-12 17:00:13	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 173.166.2.100/10726 to outside:FW-Virtual-SRV/23
+2017-04-12 17:00:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 117.218.151.108/60968 to outside:FW-Virtual-SRV/22
+2017-04-12 17:00:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.171.85/33089 to outside:FW-Virtual-SRV/23
+2017-04-12 17:01:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 151.182.170.4/22567 to outside:FW-Virtual-SRV/23
+2017-04-12 17:02:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.47.25.161/7878 to outside:FW-Virtual-SRV/23
+2017-04-12 17:02:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 81.190.118.33/16822 to outside:FW-Virtual-SRV/23
+2017-04-12 17:03:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.208.68.58/43924 to outside:FW-Virtual-SRV/23
+2017-04-12 17:05:26	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.233.74.190/12210 to outside:FW-Virtual-SRV/23
+2017-04-12 17:08:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 211.227.19.90/9599 to outside:FW-Virtual-SRV/23
+2017-04-12 17:09:14	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/52750 to outside:74.125.128.27/25; matched Class 4: header line length gt 998 
+2017-04-12 17:09:14	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/52750 to outside:74.125.128.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 17:09:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 184.105.247.240/51311 to outside:FW-Virtual-SRV/23
+2017-04-12 17:13:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.8.11.152/52639 to outside:FW-Virtual-SRV/23
+2017-04-12 17:16:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.126.26.157/11515 to outside:FW-Virtual-SRV/23
+2017-04-12 17:18:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 116.15.154.31/47303 to outside:FW-Virtual-SRV/22
+2017-04-12 17:22:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 41.250.54.219/57424 to outside:FW-Virtual-SRV/23
+2017-04-12 17:22:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 109.185.243.189/48580 to outside:FW-Virtual-SRV/23
+2017-04-12 17:24:15	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/52890 to outside:173.194.79.26/25; matched Class 4: header line length gt 998 
+2017-04-12 17:24:15	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/52890 to outside:173.194.79.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 17:24:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 124.122.253.163/57374 to outside:FW-Virtual-SRV/23
+2017-04-12 17:26:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.212.115.81/20213 to outside:FW-Virtual-SRV/23
+2017-04-12 17:29:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.96.248.246/63362 to outside:FW-Virtual-SRV/23
+2017-04-12 17:30:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.205.161.229/53135 to outside:FW-Virtual-SRV/23
+2017-04-12 17:31:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.54.108.115/22614 to outside:FW-Virtual-SRV/23
+2017-04-12 17:33:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.140.28.224/36526 to outside:FW-Virtual-SRV/23
+2017-04-12 17:35:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 85.175.17.164/24574 to outside:FW-Virtual-SRV/23
+2017-04-12 17:36:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 85.71.153.129/10822 to outside:FW-Virtual-SRV/23
+2017-04-12 17:37:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.62.160.21/49326 to outside:FW-Virtual-SRV/22
+2017-04-12 17:38:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 60.7.248.180/1712 to outside:FW-Virtual-SRV/23
+2017-04-12 17:39:15	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/53029 to outside:74.125.128.26/25; matched Class 4: header line length gt 998 
+2017-04-12 17:39:15	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/53029 to outside:74.125.128.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 17:46:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 85.89.170.220/40587 to outside:FW-Virtual-SRV/23
+2017-04-12 17:47:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 82.130.221.155/29577 to outside:FW-Virtual-SRV/23
+2017-04-12 17:48:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 117.221.106.63/21492 to outside:FW-Virtual-SRV/23
+2017-04-12 17:48:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 117.21.248.87/65276 to outside:FW-Virtual-SRV/22
+2017-04-12 17:49:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 110.77.244.77/30704 to outside:FW-Virtual-SRV/22
+2017-04-12 17:49:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 90.151.129.51/24758 to outside:FW-Virtual-SRV/23
+2017-04-12 17:51:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 140.246.38.150/61643 to outside:FW-Virtual-SRV/22
+2017-04-12 17:52:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 189.154.57.205/21427 to outside:FW-Virtual-SRV/23
+2017-04-12 17:54:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.53.88.114/48935 to outside:FW-Virtual-SRV/23
+2017-04-12 17:54:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 81.214.124.169/18168 to outside:FW-Virtual-SRV/23
+2017-04-12 17:54:16	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/53152 to outside:74.125.128.27/25; matched Class 4: header line length gt 998 
+2017-04-12 17:54:16	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/53152 to outside:74.125.128.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 17:58:57	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.42.135.248/26187 to outside:FW-Virtual-SRV/23
+2017-04-12 18:02:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 85.9.73.48/15539 to outside:FW-Virtual-SRV/23
+2017-04-12 18:02:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.42.175.83/50948 to outside:FW-Virtual-SRV/23
+2017-04-12 18:03:22	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 62.210.189.248/60331 to outside:FW-Virtual-SRV/22
+2017-04-12 18:03:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 88.101.192.26/17314 to outside:FW-Virtual-SRV/23
+2017-04-12 18:04:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.78.92.116/51215 to outside:FW-Virtual-SRV/23
+2017-04-12 18:05:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 189.63.14.141/60930 to outside:FW-Virtual-SRV/23
+2017-04-12 18:07:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.33.118.64/16724 to outside:FW-Virtual-SRV/23
+2017-04-12 18:08:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 41.41.104.74/44197 to outside:FW-Virtual-SRV/23
+2017-04-12 18:09:16	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/53281 to outside:173.194.69.26/25; matched Class 4: header line length gt 998 
+2017-04-12 18:09:16	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/53281 to outside:173.194.69.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 18:09:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.211.94.24/14501 to outside:FW-Virtual-SRV/23
+2017-04-12 18:12:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.72.85.218/26556 to outside:FW-Virtual-SRV/23
+2017-04-12 18:13:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 93.152.144.7/54061 to outside:FW-Virtual-SRV/23
+2017-04-12 18:14:16	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 223.204.6.253/4884 to outside:FW-Virtual-SRV/23
+2017-04-12 18:14:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 117.217.39.171/32610 to outside:FW-Virtual-SRV/23
+2017-04-12 18:16:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 83.25.194.203/19477 to outside:FW-Virtual-SRV/23
+2017-04-12 18:16:41	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 114.45.136.131/24316 to outside:FW-Virtual-SRV/23
+2017-04-12 18:17:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 2.61.160.168/37213 to outside:FW-Virtual-SRV/23
+2017-04-12 18:19:51	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.24 dst outside:8.8.4.4 (type 3, code 3) on inside interface.  Original IP payload: udp src 8.8.4.4/53 dst 192.168.1.24/36455.
+2017-04-12 18:20:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.59.46.229/35643 to outside:FW-Virtual-SRV/22
+2017-04-12 18:21:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.51.253.219/13375 to outside:FW-Virtual-SRV/23
+2017-04-12 18:22:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.189.113.153/46991 to outside:FW-Virtual-SRV/23
+2017-04-12 18:23:10	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.106.8.226/22295 to outside:FW-Virtual-SRV/23
+2017-04-12 18:24:17	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/53422 to outside:173.194.69.26/25; matched Class 4: header line length gt 998 
+2017-04-12 18:24:17	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/53422 to outside:173.194.69.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 18:27:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 39.117.235.161/7261 to outside:FW-Virtual-SRV/22
+2017-04-12 18:32:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 218.72.27.164/14094 to outside:FW-Virtual-SRV/23
+2017-04-12 18:33:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 93.118.82.223/52670 to outside:FW-Virtual-SRV/23
+2017-04-12 18:34:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 36.72.193.67/43639 to outside:FW-Virtual-SRV/23
+2017-04-12 18:35:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 167.60.95.207/57534 to outside:FW-Virtual-SRV/23
+2017-04-12 18:38:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 93.113.183.151/11787 to outside:FW-Virtual-SRV/23
+2017-04-12 18:39:17	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/53547 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 18:39:17	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/53547 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 18:39:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 111.119.194.52/61729 to outside:FW-Virtual-SRV/23
+2017-04-12 18:40:10	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.20.250.65/22699 to outside:FW-Virtual-SRV/22
+2017-04-12 18:43:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 221.167.103.137/45050 to outside:FW-Virtual-SRV/23
+2017-04-12 18:43:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.191.252.229/62273 to outside:FW-Virtual-SRV/22
+2017-04-12 18:44:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.41.238.5/15088 to outside:FW-Virtual-SRV/23
+2017-04-12 18:54:18	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/53682 to outside:108.177.96.27/25; matched Class 4: header line length gt 998 
+2017-04-12 18:54:18	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/53682 to outside:108.177.96.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 18:57:35	Local4.Notice	192.168.1.112	%ASA-5-713130: Group = chvtunnel, Username = am01, IP = 213.160.170.115, Received unsupported transaction mode attribute: 5
+2017-04-12 18:57:35	Local4.Notice	192.168.1.112	%ASA-5-737003: IPAA: DHCP configured, no viable servers found for tunnel-group 'chvtunnel'
+2017-04-12 18:57:35	Local4.Notice	192.168.1.112	%ASA-5-713119: Group = chvtunnel, Username = am01, IP = 213.160.170.115, PHASE 1 COMPLETED
+2017-04-12 18:57:35	Local4.Notice	192.168.1.112	%ASA-5-713075: Group = chvtunnel, Username = am01, IP = 213.160.170.115, Overriding Initiator's IPSec rekeying duration from 2147483 to 28800 seconds
+2017-04-12 18:57:35	Local4.Notice	192.168.1.112	%ASA-5-713049: Group = chvtunnel, Username = am01, IP = 213.160.170.115, Security negotiation complete for User (am01)  Responder, Inbound SPI = 0x905a1804, Outbound SPI = 0xa575ed99
+2017-04-12 18:57:35	Local4.Notice	192.168.1.112	%ASA-5-713120: Group = chvtunnel, Username = am01, IP = 213.160.170.115, PHASE 2 COMPLETED (msgid=83aa0269)
+2017-04-12 19:01:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 49.79.15.12/18024 to outside:FW-Virtual-SRV/22
+2017-04-12 19:05:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.133.131.84/4175 to outside:FW-Virtual-SRV/22
+2017-04-12 19:09:10	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 211.53.176.203/31498 to outside:FW-Virtual-SRV/23
+2017-04-12 19:09:19	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/53828 to outside:173.194.79.26/25; matched Class 4: header line length gt 998 
+2017-04-12 19:09:19	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/53828 to outside:173.194.79.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 19:09:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 193.201.81.44/50257 to outside:FW-Virtual-SRV/23
+2017-04-12 19:12:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.147.73.44/52484 to outside:FW-Virtual-SRV/23
+2017-04-12 19:14:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 197.51.248.70/61564 to outside:FW-Virtual-SRV/23
+2017-04-12 19:14:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 92.81.118.152/50566 to outside:FW-Virtual-SRV/23
+2017-04-12 19:14:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 183.57.181.123/34002 to outside:FW-Virtual-SRV/23
+2017-04-12 19:16:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 189.31.202.48/11872 to outside:FW-Virtual-SRV/22
+2017-04-12 19:16:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.190.246/10920 to outside:FW-Virtual-SRV/23
+2017-04-12 19:17:10	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.247.159.193/20683 to outside:FW-Virtual-SRV/22
+2017-04-12 19:17:15	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.208.226.105/23520 to outside:FW-Virtual-SRV/23
+2017-04-12 19:18:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 139.211.98.10/46380 to outside:FW-Virtual-SRV/22
+2017-04-12 19:19:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 109.97.253.164/12396 to outside:FW-Virtual-SRV/23
+2017-04-12 19:19:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 94.51.142.77/46726 to outside:FW-Virtual-SRV/23
+2017-04-12 19:20:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.133.110.1/4987 to outside:FW-Virtual-SRV/23
+2017-04-12 19:20:26	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.16.35.88/20765 to outside:FW-Virtual-SRV/23
+2017-04-12 19:22:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 213.14.158.244/42649 to outside:FW-Virtual-SRV/23
+2017-04-12 19:22:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.83.34.174/9156 to outside:FW-Virtual-SRV/23
+2017-04-12 19:22:49	Local4.Notice	192.168.1.112	%ASA-5-713075: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, Overriding Initiator's IPSec rekeying duration from 2147483 to 28800 seconds
+2017-04-12 19:22:49	Local4.Notice	192.168.1.112	%ASA-5-713049: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, Security negotiation complete for User (sp01)  Responder, Inbound SPI = 0xd3b11c43, Outbound SPI = 0x262582fd
+2017-04-12 19:22:49	Local4.Notice	192.168.1.112	%ASA-5-713120: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, PHASE 2 COMPLETED (msgid=d874f2f7)
+2017-04-12 19:23:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.127.33.88/6974 to outside:FW-Virtual-SRV/23
+2017-04-12 19:24:19	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/53962 to outside:173.194.79.26/25; matched Class 4: header line length gt 998 
+2017-04-12 19:24:19	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/53962 to outside:173.194.79.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 19:24:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.197.232.109/56415 to outside:FW-Virtual-SRV/22
+2017-04-12 19:24:25	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.197.232.109/56415 to outside:FW-Virtual-SRV/22
+2017-04-12 19:24:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.197.232.109/56415 to outside:FW-Virtual-SRV/22
+2017-04-12 19:24:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.197.232.109/56415 to outside:FW-Virtual-SRV/22
+2017-04-12 19:27:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.163.101.149/22202 to outside:FW-Virtual-SRV/23
+2017-04-12 19:27:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 101.71.195.171/46663 to outside:FW-Virtual-SRV/23
+2017-04-12 19:30:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.23.145.254/4292 to outside:FW-Virtual-SRV/22
+2017-04-12 19:31:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.34.133.98/6198 to outside:FW-Virtual-SRV/23
+2017-04-12 19:33:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 80.141.164.16/59115 to outside:FW-Virtual-SRV/23
+2017-04-12 19:35:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.127.85.127/15780 to outside:FW-Virtual-SRV/23
+2017-04-12 19:37:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 182.100.67.118/40200 to outside:FW-Virtual-SRV/22
+2017-04-12 19:38:13	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 105.227.133.195/18463 to outside:FW-Virtual-SRV/23
+2017-04-12 19:38:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 88.190.68.87/23081 to outside:FW-Virtual-SRV/23
+2017-04-12 19:39:20	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/54103 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 19:39:20	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/54103 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 19:41:22	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 78.38.235.41/61418 to outside:FW-Virtual-SRV/23
+2017-04-12 19:42:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 92.27.18.196/45540 to outside:FW-Virtual-SRV/23
+2017-04-12 19:43:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.45.36.111/23941 to outside:FW-Virtual-SRV/23
+2017-04-12 19:47:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.53.224.30/20475 to outside:FW-Virtual-SRV/23
+2017-04-12 19:49:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.214.56.13/60562 to outside:FW-Virtual-SRV/23
+2017-04-12 19:51:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.232.196.79/8562 to outside:FW-Virtual-SRV/23
+2017-04-12 19:51:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 69.38.131.70/30282 to outside:FW-Virtual-SRV/23
+2017-04-12 19:52:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 92.80.163.171/25327 to outside:FW-Virtual-SRV/23
+2017-04-12 19:52:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 14.175.231.124/51743 to outside:FW-Virtual-SRV/23
+2017-04-12 19:54:20	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/54230 to outside:108.177.96.26/25; matched Class 4: header line length gt 998 
+2017-04-12 19:54:20	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/54230 to outside:108.177.96.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 19:54:37	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny icmp src outside:195.110.208.161 dst inside:FW-Virtual-SRV (type 3, code 3) by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 19:54:42	Local4.Warning	192.168.1.112	%ASA-4-410001: Dropped UDP DNS request from inside:192.168.1.23/55144 to outside:77.234.40.23/53; label length 145 bytes exceeds protocol limit of 63 bytes
+2017-04-12 19:54:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 88.101.88.103/1891 to outside:FW-Virtual-SRV/23
+2017-04-12 19:54:42	Local4.Warning	192.168.1.112	%ASA-4-410001: Dropped UDP DNS request from inside:192.168.1.23/55151 to outside:77.234.40.23/53; label length 145 bytes exceeds protocol limit of 63 bytes
+2017-04-12 19:56:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.208.227.76/60367 to outside:FW-Virtual-SRV/23
+2017-04-12 19:56:43	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src inside:192.168.1.24 dst outside:17.130.21.5 (type 3, code 1) on inside interface.  Original IP payload: tcp src 17.130.21.5/443 dst 192.168.1.24/52294.
+2017-04-12 19:57:28	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 14.54.234.117/26900 to outside:FW-Virtual-SRV/23
+2017-04-12 19:58:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 119.191.142.249/42840 to outside:FW-Virtual-SRV/23
+2017-04-12 19:58:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.129.151.213/4747 to outside:FW-Virtual-SRV/23
+2017-04-12 20:00:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.128.234.50/59877 to outside:FW-Virtual-SRV/23
+2017-04-12 20:00:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.47.17.46/14904 to outside:FW-Virtual-SRV/23
+2017-04-12 20:02:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.226.243.207/30704 to outside:FW-Virtual-SRV/22
+2017-04-12 20:07:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 81.91.188.141/29687 to outside:FW-Virtual-SRV/23
+2017-04-12 20:08:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.186.55/30710 to outside:FW-Virtual-SRV/23
+2017-04-12 20:09:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 222.173.83.218/26664 to outside:FW-Virtual-SRV/23
+2017-04-12 20:09:21	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/54357 to outside:108.177.96.26/25; matched Class 4: header line length gt 998 
+2017-04-12 20:09:21	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/54357 to outside:108.177.96.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 20:12:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.126.224.16/17781 to outside:FW-Virtual-SRV/23
+2017-04-12 20:18:25	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 123.160.238.20/45628 to outside:FW-Virtual-SRV/23
+2017-04-12 20:21:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.141.69.129/24731 to outside:FW-Virtual-SRV/23
+2017-04-12 20:23:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.17.44.81/2930 to outside:FW-Virtual-SRV/23
+2017-04-12 20:24:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 198.182.9.1/56356 to outside:FW-Virtual-SRV/22
+2017-04-12 20:24:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 198.182.9.1/56356 to outside:FW-Virtual-SRV/22
+2017-04-12 20:24:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 198.182.9.1/56356 to outside:FW-Virtual-SRV/22
+2017-04-12 20:24:22	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/54501 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 20:24:22	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/54501 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 20:24:29	Local4.Warning	192.168.1.112	%ASA-4-410001: Dropped UDP DNS request from inside:192.168.1.23/56960 to outside:77.234.40.23/53; label length 78 bytes exceeds protocol limit of 63 bytes
+2017-04-12 20:24:29	Local4.Warning	192.168.1.112	%ASA-4-410001: Dropped UDP DNS request from inside:192.168.1.23/54196 to outside:77.234.40.23/53; label length 78 bytes exceeds protocol limit of 63 bytes
+2017-04-12 20:25:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 187.145.17.74/42148 to outside:FW-Virtual-SRV/23
+2017-04-12 20:25:43	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 200.111.20.243/44126 to outside:FW-Virtual-SRV/23
+2017-04-12 20:28:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 76.220.46.239/46760 to outside:FW-Virtual-SRV/23
+2017-04-12 20:31:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 24.181.91.58/26000 to outside:FW-Virtual-SRV/23
+2017-04-12 20:31:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.117.40.206/15427 to outside:FW-Virtual-SRV/23
+2017-04-12 20:35:25	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 92.86.149.65/22807 to outside:FW-Virtual-SRV/23
+2017-04-12 20:39:23	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/54627 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 20:39:23	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/54627 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 20:40:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.19.138.118/36951 to outside:FW-Virtual-SRV/23
+2017-04-12 20:41:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 14.177.84.106/51915 to outside:FW-Virtual-SRV/23
+2017-04-12 20:42:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.112.7.142/28386 to outside:FW-Virtual-SRV/23
+2017-04-12 20:46:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 175.180.140.76/22677 to outside:FW-Virtual-SRV/23
+2017-04-12 20:46:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 123.164.181.137/3289 to outside:FW-Virtual-SRV/23
+2017-04-12 20:49:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 62.122.126.148/43575 to outside:FW-Virtual-SRV/23
+2017-04-12 20:51:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.204.164.17/48776 to outside:FW-Virtual-SRV/23
+2017-04-12 20:53:34	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.191.248.146/21458 to outside:FW-Virtual-SRV/23
+2017-04-12 20:54:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.208.226.174/35843 to outside:FW-Virtual-SRV/23
+2017-04-12 20:54:24	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/54762 to outside:74.125.128.27/25; matched Class 4: header line length gt 998 
+2017-04-12 20:54:24	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/54762 to outside:74.125.128.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 20:55:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 42.7.26.15/9090 to outside:FW-Virtual-SRV/22
+2017-04-12 20:58:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.130.126.172/12955 to outside:FW-Virtual-SRV/22
+2017-04-12 21:03:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.235.129.247/61291 to outside:FW-Virtual-SRV/23
+2017-04-12 21:07:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 36.233.35.178/52128 to outside:FW-Virtual-SRV/23
+2017-04-12 21:08:05	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 88.248.54.186/22701 to outside:FW-Virtual-SRV/23
+2017-04-12 21:08:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.135.86.48/27636 to outside:FW-Virtual-SRV/23
+2017-04-12 21:09:24	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/54895 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 21:09:24	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/54895 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 21:10:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 180.245.178.83/5331 to outside:FW-Virtual-SRV/23
+2017-04-12 21:12:36	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.40.71.42/13653 to outside:FW-Virtual-SRV/22
+2017-04-12 21:12:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.51.17.57/5524 to outside:FW-Virtual-SRV/23
+2017-04-12 21:13:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.235.129.247/61291 to outside:FW-Virtual-SRV/23
+2017-04-12 21:13:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 80.82.70.26/52801 to outside:FW-Virtual-SRV/23
+2017-04-12 21:15:14	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.222.248.68/58841 to outside:FW-Virtual-SRV/23
+2017-04-12 21:15:32	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 175.138.134.26/14300 to outside:FW-Virtual-SRV/23
+2017-04-12 21:17:35	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.4.70.246/58714 to outside:FW-Virtual-SRV/23
+2017-04-12 21:18:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 46.242.84.33/36846 to outside:FW-Virtual-SRV/23
+2017-04-12 21:18:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 46.242.84.33/36846 to outside:FW-Virtual-SRV/23
+2017-04-12 21:18:13	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 46.242.84.33/36846 to outside:FW-Virtual-SRV/23
+2017-04-12 21:19:13	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.235.129.247/61291 to outside:FW-Virtual-SRV/23
+2017-04-12 21:19:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 111.40.166.130/14516 to outside:FW-Virtual-SRV/22
+2017-04-12 21:23:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.167.147.153/63883 to outside:FW-Virtual-SRV/23
+2017-04-12 21:24:25	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/55024 to outside:74.125.128.26/25; matched Class 4: header line length gt 998 
+2017-04-12 21:24:25	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/55024 to outside:74.125.128.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 21:25:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 61.177.172.36/35185 to outside:FW-Virtual-SRV/22
+2017-04-12 21:26:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 49.117.98.65/46395 to outside:FW-Virtual-SRV/22
+2017-04-12 21:31:36	Local4.Warning	192.168.1.112	%ASA-4-313005: No matching connection for ICMP error message: icmp src outside:213.147.104.150 dst identity:FW-Virtual-SRV (type 3, code 13) on outside interface.  Original IP payload: icmp src FW-Virtual-SRV dst 213.147.104.150 (type 0, code 0).
+2017-04-12 21:31:36	Local4.Error	192.168.1.112	%ASA-3-313001: Denied ICMP type=3, code=13 from 213.147.104.150 on interface outside
+2017-04-12 21:32:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.59.139.231/23642 to outside:FW-Virtual-SRV/22
+2017-04-12 21:34:57	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 109.167.44.199/43376 to outside:FW-Virtual-SRV/23
+2017-04-12 21:35:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.132.148.237/10560 to outside:FW-Virtual-SRV/23
+2017-04-12 21:37:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 84.52.94.215/6004 to outside:FW-Virtual-SRV/23
+2017-04-12 21:38:20	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 154.59.98.92/56183 to outside:FW-Virtual-SRV/23
+2017-04-12 21:39:27	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/55166 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 21:39:27	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/55166 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 21:43:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.65.65.36/31466 to outside:FW-Virtual-SRV/23
+2017-04-12 21:44:16	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 89.28.96.221/41952 to outside:FW-Virtual-SRV/23
+2017-04-12 21:45:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.201.221.159/21041 to outside:FW-Virtual-SRV/23
+2017-04-12 21:47:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 113.116.144.47/13003 to outside:FW-Virtual-SRV/23
+2017-04-12 21:47:10	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 5.141.67.71/38710 to outside:FW-Virtual-SRV/23
+2017-04-12 21:48:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.165.11.73/41010 to outside:FW-Virtual-SRV/23
+2017-04-12 21:51:46	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 180.114.113.14/53513 to outside:FW-Virtual-SRV/23
+2017-04-12 21:53:59	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 176.40.10.214/63838 to outside:FW-Virtual-SRV/23
+2017-04-12 21:54:31	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/55293 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 21:54:31	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/55293 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 21:57:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 82.238.203.81/30673 to outside:FW-Virtual-SRV/23
+2017-04-12 21:57:48	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 196.219.73.163/35469 to outside:FW-Virtual-SRV/23
+2017-04-12 22:00:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.235.129.247/61291 to outside:FW-Virtual-SRV/23
+2017-04-12 22:06:51	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.114.222.127/46405 to outside:FW-Virtual-SRV/22
+2017-04-12 22:09:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 206.221.185.26/45324 to outside:FW-Virtual-SRV/22
+2017-04-12 22:09:13	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 106.104.136.208/59217 to outside:FW-Virtual-SRV/23
+2017-04-12 22:09:33	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/55417 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 22:09:33	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/55417 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 22:09:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 118.71.69.72/36919 to outside:FW-Virtual-SRV/23
+2017-04-12 22:09:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 120.43.169.48/33348 to outside:FW-Virtual-SRV/23
+2017-04-12 22:11:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 186.222.32.77/21987 to outside:FW-Virtual-SRV/23
+2017-04-12 22:20:47	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 182.126.242.18/56039 to outside:FW-Virtual-SRV/23
+2017-04-12 22:20:54	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 181.26.12.134/49064 to outside:FW-Virtual-SRV/22
+2017-04-12 22:22:08	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 190.249.149.249/42749 to outside:FW-Virtual-SRV/23
+2017-04-12 22:24:35	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/55559 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 22:24:35	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/55559 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 22:24:40	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 189.114.239.245/4439 to outside:FW-Virtual-SRV/23
+2017-04-12 22:26:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 58.210.197.162/33392 to outside:FW-Virtual-SRV/23
+2017-04-12 22:26:42	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 58.214.21.114/54770 to outside:FW-Virtual-SRV/23
+2017-04-12 22:26:55	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 113.22.88.248/17588 to outside:FW-Virtual-SRV/23
+2017-04-12 22:31:12	Local4.Notice	192.168.1.112	%ASA-5-713119: Group = chvtunnel, Username = sp01, IP = 213.160.170.115, PHASE 1 COMPLETED
+2017-04-12 22:35:06	Local4.Warning	192.168.1.112	%ASA-4-106023: Deny tcp src outside:114.215.236.93/50840 dst inside:FW-Virtual-SRV/1433 by access-group "outside_access_in" [0x0, 0x0]
+2017-04-12 22:39:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 103.251.17.82/4694 to outside:FW-Virtual-SRV/23
+2017-04-12 22:39:35	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/55695 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 22:39:35	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/55695 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 22:42:09	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 82.145.153.208/57260 to outside:FW-Virtual-SRV/23
+2017-04-12 22:43:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 77.81.51.52/32827 to outside:FW-Virtual-SRV/23
+2017-04-12 22:43:52	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 117.81.237.203/22701 to outside:FW-Virtual-SRV/23
+2017-04-12 22:45:03	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 95.189.22.64/3656 to outside:FW-Virtual-SRV/23
+2017-04-12 22:46:45	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.19.218.41/59273 to outside:FW-Virtual-SRV/23
+2017-04-12 22:54:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 105.227.22.231/11480 to outside:FW-Virtual-SRV/23
+2017-04-12 22:54:36	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/55821 to outside:173.194.79.27/25; matched Class 4: header line length gt 998 
+2017-04-12 22:54:36	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/55821 to outside:173.194.79.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 22:55:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.159.184/38798 to outside:FW-Virtual-SRV/23
+2017-04-12 22:55:11	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 122.116.1.245/41021 to outside:FW-Virtual-SRV/23
+2017-04-12 22:55:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.210.178.212/58634 to outside:FW-Virtual-SRV/23
+2017-04-12 22:56:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 188.27.45.40/41805 to outside:FW-Virtual-SRV/23
+2017-04-12 22:56:38	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 177.81.18.7/17525 to outside:FW-Virtual-SRV/23
+2017-04-12 22:58:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 178.214.46.233/4935 to outside:FW-Virtual-SRV/23
+2017-04-12 22:59:12	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 173.163.192.1/25105 to outside:FW-Virtual-SRV/23
+2017-04-12 22:59:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 217.216.2.139/30469 to outside:FW-Virtual-SRV/23
+2017-04-12 23:03:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.155.114.217/33398 to outside:FW-Virtual-SRV/23
+2017-04-12 23:06:04	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 42.115.5.209/48453 to outside:FW-Virtual-SRV/23
+2017-04-12 23:07:39	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 200.117.28.59/18718 to outside:FW-Virtual-SRV/23
+2017-04-12 23:08:16	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 176.49.36.155/42710 to outside:FW-Virtual-SRV/22
+2017-04-12 23:09:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 198.167.136.151/55601 to outside:FW-Virtual-SRV/22
+2017-04-12 23:09:37	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/55960 to outside:74.125.143.26/25; matched Class 4: header line length gt 998 
+2017-04-12 23:09:37	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/55960 to outside:74.125.143.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 23:10:57	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 112.16.169.189/10426 to outside:FW-Virtual-SRV/23
+2017-04-12 23:11:17	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 31.162.106.242/9388 to outside:FW-Virtual-SRV/23
+2017-04-12 23:14:27	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 94.50.19.130/12549 to outside:FW-Virtual-SRV/23
+2017-04-12 23:14:44	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 222.184.79.60/12772 to outside:FW-Virtual-SRV/22
+2017-04-12 23:14:56	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.183.252.121/7006 to outside:FW-Virtual-SRV/23
+2017-04-12 23:17:33	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 223.241.240.173/62329 to outside:FW-Virtual-SRV/23
+2017-04-12 23:22:10	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 107.173.104.2/4334 to outside:FW-Virtual-SRV/23
+2017-04-12 23:22:13	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 107.173.104.2/4334 to outside:FW-Virtual-SRV/23
+2017-04-12 23:22:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 107.173.104.2/4334 to outside:FW-Virtual-SRV/23
+2017-04-12 23:22:23	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 79.118.72.234/24833 to outside:FW-Virtual-SRV/23
+2017-04-12 23:24:37	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/56125 to outside:74.125.143.27/25; matched Class 4: header line length gt 998 
+2017-04-12 23:24:37	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/56125 to outside:74.125.143.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 23:27:18	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 91.225.213.153/65279 to outside:FW-Virtual-SRV/23
+2017-04-12 23:27:50	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 201.179.233.158/28163 to outside:FW-Virtual-SRV/23
+2017-04-12 23:28:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 84.43.244.239/34519 to outside:FW-Virtual-SRV/23
+2017-04-12 23:32:21	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 168.196.212.42/26087 to outside:FW-Virtual-SRV/23
+2017-04-12 23:34:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 191.35.113.47/16321 to outside:FW-Virtual-SRV/23
+2017-04-12 23:35:02	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 49.75.212.189/12692 to outside:FW-Virtual-SRV/22
+2017-04-12 23:36:06	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 115.217.24.47/21094 to outside:FW-Virtual-SRV/23
+2017-04-12 23:36:30	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 183.93.248.69/11431 to outside:FW-Virtual-SRV/22
+2017-04-12 23:39:38	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/56256 to outside:173.194.69.27/25; matched Class 4: header line length gt 998 
+2017-04-12 23:39:38	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/56256 to outside:173.194.69.27/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 23:42:31	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 14.157.27.21/41667 to outside:FW-Virtual-SRV/23
+2017-04-12 23:44:37	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 59.127.57.117/30276 to outside:FW-Virtual-SRV/23
+2017-04-12 23:44:53	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 89.146.98.0/4778 to outside:FW-Virtual-SRV/23
+2017-04-12 23:45:22	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 221.153.157.242/26378 to outside:FW-Virtual-SRV/23
+2017-04-12 23:47:58	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.36.164.39/49106 to outside:FW-Virtual-SRV/23
+2017-04-12 23:48:01	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.36.164.39/49106 to outside:FW-Virtual-SRV/23
+2017-04-12 23:48:07	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 179.36.164.39/49106 to outside:FW-Virtual-SRV/23
+2017-04-12 23:51:24	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 220.165.100.14/17679 to outside:FW-Virtual-SRV/22
+2017-04-12 23:53:00	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 84.0.214.159/64872 to outside:FW-Virtual-SRV/23
+2017-04-12 23:54:38	Local4.Warning	192.168.1.112	%ASA-4-108004: ESMTP Classification: Dropped connection for ESMTP Request from inside:Server_CHV1/56390 to outside:108.177.96.26/25; matched Class 4: header line length gt 998 
+2017-04-12 23:54:38	Local4.Warning	192.168.1.112	%ASA-4-507003: tcp flow from inside:Server_CHV1/56390 to outside:108.177.96.26/25 terminated by inspection engine, reason - inspector disconnected, dropped packet.
+2017-04-12 23:54:49	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 212.199.134.37/29084 to outside:FW-Virtual-SRV/23
+2017-04-12 23:56:19	Local4.Error	192.168.1.112	%ASA-3-710003: TCP access denied by ACL from 92.101.220.86/7089 to outside:FW-Virtual-SRV/23

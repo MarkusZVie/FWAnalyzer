@@ -9,12 +9,26 @@ import at.ac.univie.FirewallLogAnayzer.Processing.StaticFunctions;
 
 public class InputHandler implements IInputHandler{
 
+	
+	
+	
+	
+
+
+
 	public void loadeFirewallLog(String logpath, LogType logType) throws FileNotFoundException, LogIdNotFoundException{
+		
+		StaticFunctions.cleanFile("Files\\errorLog.txt");
+		
+		
 		String logFileContent = StaticFunctions.readeFile(logpath);
 		switch (logType.getId()) {
 		case 0:
 			ParserCisco parser = new ParserCisco();
+			ReportNumberOfLinesParsed reporter = new ReportNumberOfLinesParsed(parser);
+			reporter.start();
 			parser.parse(logFileContent);
+			reporter.stop();
 			break;
 
 		default:

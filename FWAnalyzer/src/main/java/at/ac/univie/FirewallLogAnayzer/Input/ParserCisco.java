@@ -25,7 +25,18 @@ public class ParserCisco extends Parser{
 		try {
 			String line = reader.readLine();
 		    while (line != null) {
-		    	LogRows.getInstance().addLogRow(analyseRow(line));
+		    	try {
+		    		LogRows.getInstance().addLogRow(analyseRow(line));
+		    		numberOfRowsReaded++;
+				} catch (Exception e) {
+					String reportingString ="Error, by parsing Row:\n";
+					reportingString = reportingString + line +"\n";
+					reportingString = reportingString + e.getMessage() + "\n";
+					reportingString = reportingString + "--------------------------------------------\n";
+					writeErrorLogInErrorLogTxt(reportingString);
+				}
+		    	
+		    	
 		        line = reader.readLine();
 		    }
 		} catch (IOException e) {
@@ -117,19 +128,21 @@ public class ParserCisco extends Parser{
 					}
 				}else{
 					if(asaCode==313005){
-						ipAndPort[0] = "incoming";
-						String srcArtifact = artifact.substring(artifact.indexOf("src ")+"src ".length(), artifact.indexOf(' ', artifact.indexOf("src ")+"src ".length()));
-						ipAndPort[1] = searchTheNIpInRow(srcArtifact,1);
-						ipAndPort[2] = checkIfPortIsAPart(srcArtifact);
-						String destArtifact = artifact.substring(artifact.indexOf("dst ")+"dst ".length());
-						ipAndPort[3] = searchTheNIpInRow(destArtifact,1);
-						ipAndPort[4] = checkIfPortIsAPart(destArtifact);
-						ipAndPort[5] = artifact.substring(0, artifact.indexOf(' '));
-						
-						if(ipAndPort[1]==null){
-							ipAndPort[1] = srcArtifact.substring(0, srcArtifact.indexOf('/'));
-							ipAndPort[2] = srcArtifact.substring(srcArtifact.indexOf('/')+1);
+						if(!artifact.equals("<unknown>.")){
+							ipAndPort[0] = "incoming";
+							String srcArtifact = artifact.substring(artifact.indexOf("src ")+"src ".length(), artifact.indexOf(' ', artifact.indexOf("src ")+"src ".length()));
+							ipAndPort[1] = searchTheNIpInRow(srcArtifact,1);
+							ipAndPort[2] = checkIfPortIsAPart(srcArtifact);
+							String destArtifact = artifact.substring(artifact.indexOf("dst ")+"dst ".length());
+							ipAndPort[3] = searchTheNIpInRow(destArtifact,1);
+							ipAndPort[4] = checkIfPortIsAPart(destArtifact);
+							ipAndPort[5] = artifact.substring(0, artifact.indexOf(' '));
 							
+							if(ipAndPort[1]==null){
+								ipAndPort[1] = srcArtifact.substring(0, srcArtifact.indexOf('/'));
+								ipAndPort[2] = srcArtifact.substring(srcArtifact.indexOf('/')+1);
+								
+							}
 						}
 					}
 				}
@@ -364,9 +377,11 @@ public class ParserCisco extends Parser{
 					isForstFoundWord = false;
 					
 					
+					
 					//add orginal lines
 					splittedLine.add(trimedDescription.substring(saveBeginIndex, saveEndIndex).trim()); //decription add, because eventual pre add
 					splittedLine.add(trimedLine.substring(beginIndex, endIndex).trim());				//line artifact add
+						
 					
 					
 					
