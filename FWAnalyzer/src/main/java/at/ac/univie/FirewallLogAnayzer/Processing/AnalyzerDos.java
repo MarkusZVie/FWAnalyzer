@@ -46,6 +46,24 @@ public class AnalyzerDos implements IProcessingAnalyse {
 
     }
 
+    public ArrayList<DoSData> analyzeMpt(DoSDataList processedData, Double criticalValue){
+        ArrayList<DoSData> criticalIp = new ArrayList<>();
+        boolean tmp = false;
+        for (DoSData dd: processedData.getDataEdited()){
+            for (int i = 0; i < dd.getMptList().size(); i++) {
+                if (dd.getMptList().get(i) > criticalValue){
+                    //System.out.println("Danger Zone: " + dd.getMessages().get(0).getSrcIP());
+                    tmp = true;
+                }
+            }
+            if (tmp){
+                criticalIp.add(dd);
+                tmp = false;
+            }
+        }
+        return criticalIp;
+    }
+
     public ArrayList<DoSData> sortMessagePerMinute(DoSDataList processedData, String ascdesc){
         ArrayList<DoSData> dataraw = processedData.getDataEdited();
         System.out.println("Sort MPM: " + dataraw.size());

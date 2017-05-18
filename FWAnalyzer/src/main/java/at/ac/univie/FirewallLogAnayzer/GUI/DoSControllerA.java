@@ -8,6 +8,8 @@ import at.ac.univie.FirewallLogAnayzer.Input.IInputHandler;
 import at.ac.univie.FirewallLogAnayzer.Input.InputHandler;
 import at.ac.univie.FirewallLogAnayzer.Processing.AnalyzerDos;
 import at.ac.univie.FirewallLogAnayzer.Processing.IProcessingAnalyse;
+import com.sun.org.apache.xerces.internal.impl.xpath.XPath;
+import com.sun.org.apache.xml.internal.dtm.*;
 import com.sun.org.apache.xpath.internal.operations.Number;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -37,6 +39,10 @@ public class DoSControllerA {
     private LineChart<String,Number> lineChart = null;
     private CategoryAxis xAxis;
     private NumberAxis yAxis;
+
+    private BarChart<String,Number> bc = null;
+    private CategoryAxis xxAxis;
+    private NumberAxis yyAxis;
 
     @FXML Label mainLabel;
     @FXML private AnchorPane mainAP;
@@ -116,7 +122,6 @@ public class DoSControllerA {
             lineChart.getData().remove(xAxis);
             lineChart.getData().remove(yAxis);
         }
-
         lineChart = new LineChart(xAxis, yAxis);
         lineChart.setTitle("Stock Monitoring");
 
@@ -129,27 +134,65 @@ public class DoSControllerA {
                 series1.getData().add(new XYChart.Data(sTmp, dd.getStd().getDifferences().get(i)));
             }
             lineChart.getData().add(series1);
-
         }
-
         apCenterZoom.getChildren().add(lineChart);
-
-
         /*
-
         Legende ausblenden
         -> Hover an!
         1280-720 px
         Zoom funktion?
         ticks?
-
         zuerst IPs anzeigen und dann einzelne XY Charts machen?
          */
-
     }
 
-    public void zoomCountry(String country){
+    public void initBarChart(){
 
+          String austria = "Austria";
+          String brazil = "Brazil";
+          String france = "France";
+          String italy = "Italy";
+          String usa = "USA";
+        xxAxis = new CategoryAxis();
+        yyAxis = new NumberAxis();
+        bc = new BarChart(xxAxis,yyAxis);
+
+
+        bc.setTitle("Country Summary");
+            xxAxis.setLabel("Country");
+            yyAxis.setLabel("Value");
+
+            XYChart.Series series1 = new XYChart.Series();
+            series1.setName("2003");
+            series1.getData().add(new XYChart.Data(austria, 25601.34));
+            series1.getData().add(new XYChart.Data(brazil, 20148.82));
+            series1.getData().add(new XYChart.Data(france, 10000));
+            series1.getData().add(new XYChart.Data(italy, 35407.15));
+            series1.getData().add(new XYChart.Data(usa, 12000));
+
+            XYChart.Series series2 = new XYChart.Series();
+            series2.setName("2004");
+            series2.getData().add(new XYChart.Data(austria, 57401.85));
+            series2.getData().add(new XYChart.Data(brazil, 41941.19));
+            series2.getData().add(new XYChart.Data(france, 45263.37));
+            series2.getData().add(new XYChart.Data(italy, 117320.16));
+            series2.getData().add(new XYChart.Data(usa, 14845.27));
+
+            XYChart.Series series3 = new XYChart.Series();
+            series3.setName("2005");
+            series3.getData().add(new XYChart.Data(austria, 45000.65));
+            series3.getData().add(new XYChart.Data(brazil, 44835.76));
+            series3.getData().add(new XYChart.Data(france, 18722.18));
+            series3.getData().add(new XYChart.Data(italy, 17557.31));
+            series3.getData().add(new XYChart.Data(usa, 92633.68));
+
+
+            bc.getData().addAll(series1, series2, series3);
+        apCenterZoom.getChildren().add(bc);
+    }
+
+
+    public void zoomCountry(String country){
         System.out.println(country + " clicked .. show Info");
         ArrayList<DoSData> countryData = countrymap.get(country);
         System.out.println("IP's: " + countryData.size());
@@ -158,6 +201,7 @@ public class DoSControllerA {
         apCenterZoom.setVisible(true);
         backtochartBtn.setVisible(true);
         initLineChart(countryData);
+        //initBarChart();
     }
 
     public HashMap<String, Integer> tmpCallMainCode(){
@@ -181,4 +225,5 @@ public class DoSControllerA {
         HashMap<String, Integer> countryCount = da.sumMessagesPerCountry(countrymap, "asc");
         return countryCount;
     }
+
 }

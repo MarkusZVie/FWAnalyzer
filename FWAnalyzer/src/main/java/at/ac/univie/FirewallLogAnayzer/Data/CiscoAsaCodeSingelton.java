@@ -24,7 +24,9 @@ public class CiscoAsaCodeSingelton {
 			ciscoAsaContextPage = loadeCiscoPageOnline();
 		} catch (IOException e) {
 			try {
-				ciscoAsaContextPage = StaticFunctions.readeFile("Files\\ciscoAsaCodeBackgroundInfos.htm")[0];
+				//   Files\ciscoAsaCodeBackgroundInfos.htm
+				//   /Users/josefweber/Documents/Intelliji\ Projekte/Bakk_Analyzer/FWAnalyzer/Files/ciscoAsaCodeBackgroundInfos.htm
+				ciscoAsaContextPage = StaticFunctions.readeFile("/Users/josefweber/Documents/Intelliji\\ Projekte/Bakk_Analyzer/FWAnalyzer/Files/ciscoAsaCodeBackgroundInfos.htm")[0];
 			} catch (FileNotFoundException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();

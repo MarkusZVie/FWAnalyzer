@@ -49,7 +49,7 @@ public class App
 
         // DOS
         IProcessingAnalyse da = new AnalyzerDos();
-        DoSDataList ddl = da.analyseDos("icmp", 60     );
+        DoSDataList ddl = da.analyseDos("icmp", 60);
 
         // Sort mpm
         //da.sortMessagePerMinute(ddl, "asc");
@@ -72,13 +72,16 @@ public class App
         System.out.println(td1.getMptList().toString() + " ip=" + td1.getMessages().get(0).getSrcIP());
 
 
-
+        ArrayList<DoSData> crits = da.analyzeMpt(ddl,10.0);
+        System.out.println(crits.size());
 
         // Test Message Per Time
-        for (int i = 0; i < ddl.getDataEdited().size(); i++) {
-            DoSData tdTmp = ddl.getDataEdited().get(i);
-            System.out.println(tdTmp.getMptList().toString());
+
+        for (int i = 0; i < crits.size(); i++) {
+
+            System.out.println(crits.get(i).getMessages().get(0).getSrcIP());
         }
+
 
 
 

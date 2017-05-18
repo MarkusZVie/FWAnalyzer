@@ -23,4 +23,6 @@ public interface IProcessingAnalyse {
 
 	public DoSData getSingleIP(DoSDataList processedData, String ip);
 
+	public ArrayList<DoSData> analyzeMpt(DoSDataList processedData, Double criticalValue);
+
 }

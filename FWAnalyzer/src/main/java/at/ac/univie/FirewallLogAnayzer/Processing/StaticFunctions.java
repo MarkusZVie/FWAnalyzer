@@ -166,6 +166,10 @@ public class StaticFunctions {
 		
 	}
 
+	public static double calcCriticalTresh(double min){
+		return 16.6*min;
+	}
+
 
 	
 }
