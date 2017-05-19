@@ -13,6 +13,7 @@ import com.sun.org.apache.xml.internal.dtm.*;
 import com.sun.org.apache.xpath.internal.operations.Number;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.geometry.Side;
@@ -36,13 +37,14 @@ import java.util.Objects;
 public class DoSControllerA {
 
     private HashMap<String, ArrayList<DoSData>> countrymap;
+
     private LineChart<String,Number> lineChart = null;
     private CategoryAxis xAxis;
     private NumberAxis yAxis;
 
     private BarChart<String,Number> bc = null;
-    private CategoryAxis xxAxis;
-    private NumberAxis yyAxis;
+    private CategoryAxis xxAxisBar;
+    private NumberAxis yyAxisBar;
 
     @FXML Label mainLabel;
     @FXML private AnchorPane mainAP;
@@ -65,10 +67,14 @@ public class DoSControllerA {
         backtochartBtn.setVisible(false);
         //lineChart = null;
         //apCenterZoom.getChildren().remove(lineChart);
-        if (!lineChart.getData().isEmpty()){
-            System.out.println("Remove Series");
-            lineChart.getData().remove((lineChart.getData().size()-1));
+        if (!bc.getData().isEmpty()){
+            System.out.println("Remove Series from Bar Chart");
+            bc.getData().remove((bc.getData().size()-1));
         }
+    }
+
+    public void backtoBarChart(){
+
     }
 
     public void initpiechart(HashMap<String, Integer> cc){
@@ -103,7 +109,8 @@ public class DoSControllerA {
             data.getNode().addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
                 @Override
                 public void handle(MouseEvent e) {
-                    zoomCountry(data.getName());
+                    //zoomCountry(data.getName());
+                    zoomCountryShowIps(data.getName());
                 }
             });
         }
@@ -146,49 +153,59 @@ public class DoSControllerA {
          */
     }
 
-    public void initBarChart(){
+    public void initBarChart(ArrayList<DoSData> countrydata, String country){
+        if (bc == null) {
+            xxAxisBar = new CategoryAxis();
+            yyAxisBar = new NumberAxis();
+            xxAxisBar.setLabel("IP");
+        } else {
+            bc.getData().removeAll(bc.getData());
+            bc.getData().remove(xxAxisBar);
+            bc.getData().remove(yyAxisBar);
+        }
+        bc = new BarChart(xxAxisBar, yyAxisBar);
+        bc.setTitle("IPs of " + country);
 
-          String austria = "Austria";
-          String brazil = "Brazil";
-          String france = "France";
-          String italy = "Italy";
-          String usa = "USA";
-        xxAxis = new CategoryAxis();
-        yyAxis = new NumberAxis();
-        bc = new BarChart(xxAxis,yyAxis);
+        xxAxisBar.setLabel("IP");
+        yyAxisBar.setLabel("Messages");
 
-
-        bc.setTitle("Country Summary");
-            xxAxis.setLabel("Country");
-            yyAxis.setLabel("Value");
-
+        for (DoSData dd: countrydata){
             XYChart.Series series1 = new XYChart.Series();
-            series1.setName("2003");
-            series1.getData().add(new XYChart.Data(austria, 25601.34));
-            series1.getData().add(new XYChart.Data(brazil, 20148.82));
-            series1.getData().add(new XYChart.Data(france, 10000));
-            series1.getData().add(new XYChart.Data(italy, 35407.15));
-            series1.getData().add(new XYChart.Data(usa, 12000));
-
-            XYChart.Series series2 = new XYChart.Series();
-            series2.setName("2004");
-            series2.getData().add(new XYChart.Data(austria, 57401.85));
-            series2.getData().add(new XYChart.Data(brazil, 41941.19));
-            series2.getData().add(new XYChart.Data(france, 45263.37));
-            series2.getData().add(new XYChart.Data(italy, 117320.16));
-            series2.getData().add(new XYChart.Data(usa, 14845.27));
-
-            XYChart.Series series3 = new XYChart.Series();
-            series3.setName("2005");
-            series3.getData().add(new XYChart.Data(austria, 45000.65));
-            series3.getData().add(new XYChart.Data(brazil, 44835.76));
-            series3.getData().add(new XYChart.Data(france, 18722.18));
-            series3.getData().add(new XYChart.Data(italy, 17557.31));
-            series3.getData().add(new XYChart.Data(usa, 92633.68));
+            series1.setName(dd.getMessages().get(0).getSrcIP());
+            String sTmp = dd.getMessages().get(0).getSrcIP();
+            series1.getData().add(new XYChart.Data(sTmp, dd.getMessages().size()));
+            bc.getData().add(series1);
+        }
 
 
-            bc.getData().addAll(series1, series2, series3);
-        apCenterZoom.getChildren().add(bc);
+        bc.setCursor(Cursor.CROSSHAIR);
+        bc.setLegendVisible(true);
+
+        bc.isResizable();
+
+
+        final Label caption = new Label("");
+        caption.setTextFill(Color.BLACK);
+        caption.setStyle("-fx-font: 12 arial;");
+
+        for (final XYChart.Series<String, Number> data : bc.getData()) {
+
+            data.getChart().addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
+                @Override
+                public void handle(MouseEvent e) {
+                    caption.setTranslateX(e.getSceneX());
+                    caption.setTranslateY(e.getSceneY());
+
+                    caption.setText("egal was..");
+                }
+            });
+        }
+
+
+
+
+        apCenterZoom.getChildren().addAll(bc,caption);
+
     }
 
 
@@ -201,7 +218,17 @@ public class DoSControllerA {
         apCenterZoom.setVisible(true);
         backtochartBtn.setVisible(true);
         initLineChart(countryData);
-        //initBarChart();
+
+    }
+
+    public void zoomCountryShowIps(String country){
+        // Zeige alle IPs als Barchart 1xIP hat <IPString,MessageCount>
+        apCenter.setVisible(false);
+        apCenterZoom.setVisible(true);
+        backtochartBtn.setVisible(true);
+
+        ArrayList<DoSData> countryData = countrymap.get(country);
+        initBarChart(countryData, country);
     }
 
     public HashMap<String, Integer> tmpCallMainCode(){
